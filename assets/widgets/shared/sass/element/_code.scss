@@ -1,0 +1,13 @@
+//## Code
+//
+
+code {
+	font-family: Courier, "Courier New", monospace;
+	font-size: .9em;
+	font-style: normal;
+	line-height: 1em;
+	
+	@include respond-mobile {
+		font-size: .85em;
+	}
+}

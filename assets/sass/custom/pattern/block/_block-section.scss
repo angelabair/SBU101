@@ -1,0 +1,89 @@
+// # Customized Section
+//Edit or replaces styles with title-specific design style
+section {
+	border-bottom: 1px solid $color-2;
+	border-top: 1px solid $color-2;
+	background-color: $white;
+	//font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	font-weight: 400;
+	@include full-bleed-padding;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+	@include pie-clearfix;
+	clear: both;
+	&.sidenote {
+		background: $color-3;
+		position: relative;
+		border: none;
+		margin: 1em 0;
+		padding: 1em 1.5em;
+		p {
+    		margin-bottom: 0.4em;
+			color: $color-1;
+			text-indent: 0;
+			line-height: 1.4em;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		h4 {
+			color: $color-2;
+			//font-family: $font-whitney;
+            font-family: $primary-text-font-test;
+			font-weight: 600;
+			font-size: 1.2em;
+			line-height: normal;
+			margin: 0 0 .2em;
+		}
+		h5 {
+			color: $color-1;
+			//font-family: $font-whitney;
+            font-family: $primary-text-font-test;
+			font-weight: 400;
+			font-size: .9em;
+			line-height: normal;
+			text-transform: uppercase;
+			margin-bottom: .4em;
+		}
+        		p, ul li {
+			//font-family: $font-whitney;
+            font-family: $primary-text-font-test;
+			font-weight: 400;
+		}
+            	&.width-half-right {
+			display: block;
+			margin: 0.5em 0 1em 0.5em;
+			padding: 0 0 0 1em;
+			-webkit-box-sizing: border-box;
+			h4, em, p {
+			 	color: $color-1;
+		 	}
+			@media screen and (max-width: 480px) {
+				width: auto;
+				margin: 0.5em;
+				padding: 0.5em 0 0 0;		
+				border-left: none;
+			} 
+		}
+	}
+	&.sidenote-icon {
+		background-image: url(../img/temp-icon.svg);
+		background-repeat: no-repeat;
+		background-position: 1.5em 1em;
+		background-size: 50px 50px;
+		h4, h5 {
+			padding-left: 70px;
+			display: block;
+		}
+	}
+	&.width-half {
+		margin: 0.5em 0 1em 1em;
+		padding: .5em .8em;
+		@include respond-mobile {
+			margin-left: 0;
+		}
+	}
+}

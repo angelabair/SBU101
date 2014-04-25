@@ -1,0 +1,22 @@
+// # Figure Truncation
+// Provides truncation for all figures.
+
+// The `max-height` determines how many lines will show before truncation. Defaults are:
+
+// - 1 line for full-width figures
+// - 3 lines for width-half figures
+
+// To disable just comment out or remove this CSS.
+
+a,
+figure {
+	figcaption {
+		overflow: hidden;
+		max-height: 1.6em;
+	}
+	&.width-half-right {
+		figcaption {
+			max-height: 4.1em;
+		}
+	}
+}

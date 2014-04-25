@@ -1,0 +1,66 @@
+//# iOS Fonts
+//
+// Fonts used by the iOS apps.
+
+// ## Chronicle, 4 styles
+
+@font-face {
+	font-family: 'Chronicle';
+	src: local("Chronicle Text G4 Roman"), local("ChronicleTextG4-Roman");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Chronicle';
+	src: local("Chronicle Text G4 Italic"), local("ChronicleTextG4-Italic");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Chronicle';
+	src: local("Chronicle Text G4 Bold"), local("ChronicleTextG4-Bold");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Chronicle';
+	src: local("Chronicle Text G4 Bold Italic"), local("ChronicleTextG4-BoldItalic");
+	font-weight: 700;
+	font-style: italic;
+}
+
+
+// ## Whitney, 8 styles
+
+@font-face {
+	font-family: 'Whitney';
+	src: local("Whitney-Book");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Whitney';
+	src: local("Whitney-BookItalic");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Whitney';
+	src: local("Whitney-Medium"), local("WhitneyMedium-Regular");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Whitney';
+	src: local("Whitney-MediumItalic"), local("WhitneyMedium-Italic");
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Whitney';
+	src: local("Whitney-Semibold"), local("WhitneySemibold-Regular");
+	font-weight: 600;
+}

@@ -1,0 +1,91 @@
+// # Color Themes
+// Uncomment a theme to override color variable defaults. This will apply new colors to a number of different patterns throughout your title.
+
+// Colors will be applied to the following patterns:
+
+//- blockquote
+//- header h2 color & chapter-number color
+//- callout background & callout h4, h5 colors
+//- sidenote background
+//- text-dropcap color
+
+// Text
+$c1: 990000;
+
+// ## Black, White and Gray
+$black: black;
+$white: white;
+$gray: #444444;
+
+// ## Beige and pastels
+// $color-1: #706853;
+// $color-2: #00AE9D;
+// $color-3: #C7F0EC;
+// $color-4: #eee;
+
+// ## Dark and light blues
+//$color-1: #083157;
+//$color-2: #0A6C87;
+//$color-3: #E1F3D6;
+//$color-4: #F3FEF8;
+
+// ## Stony Brook Colors (evolving initialy based on blues above)
+// Starting with SBU Red
+// do any global color editing here -Aaron
+//color-1 is now SBU Red
+$color-1: #990000;
+$color-2: #0A6C87;
+$color-3: #E1F3D6;
+$color-4: #F3FEF8;
+$color-5: #EDEDED;
+
+// ## Green and orange
+//$color-1: #688732;
+//$color-2: #C48522;
+//$color-3: #EBF2DF;
+//$color-4: #eee;
+
+// ## Deep red and dark brown
+//$color-1: #7d0e20;
+//$color-2: #706853;
+//$color-3: #fffee6;
+//$color-4: #eeeeee;
+
+// ## Orange and blue
+//$color-1: #D76128;
+//$color-2: #022552;
+//$color-3: #FCF3E7;
+//$color-4: #eee;
+
+
+//# Unit & Chapter Colors
+// If you have multiple units or chapters that share colors you should describe them here.
+// You can create the color variables as needed. This is a simple example.
+
+// $color-group-1-primary: #706853;
+// $color-group-1-secondary: #fffee6;
+
+// $color-group-2-primary: #688732;
+// $color-group-2-secondary: #C48522;
+
+// .chapter01, .chapter02, .chapter03 {
+//     header {
+//         background: $color-group-1-primary;
+//         {
+//             h1 {
+//                 color: $color-group-1-secondary;
+//             }
+//         }
+//     }
+// }
+
+// .chapter04, .chapter05, .chapter06 {
+//     header {
+//         background: $color-group-2-primary;
+//         {
+//             h1 {
+//                 color: $color-group-2-secondary;
+//             }
+//         }
+//     }
+// }

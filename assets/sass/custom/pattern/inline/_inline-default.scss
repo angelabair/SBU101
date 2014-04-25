@@ -1,0 +1,62 @@
+// # Inkline Elements
+// Default styling for most inline elements.
+
+// ## Remark without using sup element
+//For remarks that use the anchor element
+a[href*="[remark"] {
+	background-image: none;
+	padding: 0;
+	margin-right: 0;
+}
+
+//## General Inline Defaults
+b {
+	font-weight: 700;
+}
+
+em {
+	font-weight: 400;
+	font-style: normal;
+}
+
+i {
+	font-style: italic;
+}
+
+q {
+	quotes: '\201C' '\201D';
+	&:before {
+		content: '\0020 \201C';
+	}
+	&:after {
+		content: '\201D \0020';
+	}
+}
+
+small {
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+strong {
+	font-weight: 700;
+	font-style: normal;
+}
+
+sub {
+	line-height: 1em;
+	font-size: 0.7em;
+	vertical-align: sub;
+}
+
+sup {
+	line-height: normal;
+	font-size: 0.7em;
+	vertical-align: super;
+}
+
+var {
+	font-family: monospace;
+	white-space: pre;
+	font-style: normal;
+}

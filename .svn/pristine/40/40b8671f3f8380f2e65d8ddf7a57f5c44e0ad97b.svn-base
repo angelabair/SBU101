@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<multifigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="d8baee6558ea4516ac97e23d614f3377">
+    <title>Cycle of Socialization Re: Difference </title>
+    <caption/><cite/>
+    <enumerationtype>number</enumerationtype>
+    <type>illustration</type>
+    <figures>
+        <!--First slide-->
+        <imagefigure data-uuid="b7047f34d7454acf9560c463362bb28e">
+            <img src="../../img/chapter04/cycle_of_soc1.png" data-uuid="ede20456107b4ca8ba438218b4c70016"/>
+            <caption>Lens of Identity</caption>
+            <cite/>
+        </imagefigure>
+        <!--Second slide-->
+        
+        <!--Third slide-->
+        <imagefigure data-uuid="b4479f049c824435acb934e768dbb612">
+            <img src="../../img/chapter04/cycle_of_soc3.png" data-uuid="0450595d4a9d40a48db753d0f4d8292d"/>
+            <caption>Reinforced by messages from society on both a conscious and subconscious level</caption>
+            <cite/>
+        </imagefigure>
+    <imagefigure data-uuid="d7ae5e8ee66f4919a0756c37623ae4ec">
+        
+        <img src="../../img/chapter04/cycle_of_soc4.png" data-uuid="ab7cb5e69d9c4c199608924e4d4074ce"/>
+        <caption>It's your choice what to do.</caption>
+        <cite/>
+        <type>illustration</type></imagefigure></figures>
+</multifigure>

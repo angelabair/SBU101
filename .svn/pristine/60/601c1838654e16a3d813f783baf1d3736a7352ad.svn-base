@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" designation="" enumeration="" data-uuid="e7b9dbb96e4e4e54a8e3e76f406ae1c1">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../assets/css/main.css" type="text/css" rel="stylesheet" />
+        <title>Letter from the Dean</title>
+    </head>
+    <body class="card-chapter-reader">
+        <header data-uuid="214000f958ea4e26a1d4f509dc3834f4">
+            <h1 data-uuid="3ffae1273ba04ea792e39020bc94b6ee">Title of Reader Card (h1)</h1>
+        </header>
+        <h2 data-uuid="587738178ed94d5ba4bcb6de866ca16a">Second Level Heading (h2)</h2>
+        <h3 data-uuid="bf194a71d93d49e5af8e09b9a2bbcca6">Third Level Heading (h3)</h3>
+        <p data-uuid="14e75812776e4bca9846f442a16a5552">Reader cards contain the primary text content for a title. These files are rendered as HTML with text and images, styled with CSS. Switch to <i>Edit mode</i> to make text edits or add or remove patterns from this card.</p>
+        <a href="">
+	        <figure subtitle="" data-uuid="f521ff9cf0d34f8393b5cab3b0c08e46">
+	            <img src="../../img/.templates/stub-landscape.png" alt="" data-uuid="f15c9d8ded3a4a27809bee9ae812835c" />
+	            <figcaption>
+	                <span class="figure-number">
+	                    <span class="figure-designation">Figure</span>
+	                    <span class="figure-enumeration">1a</span>
+	                </span>
+	                <span class="caption-title">Caption title.</span>
+	                <span class="caption-body">Caption body.</span>
+	                <span class="caption-citation">Caption citation.</span>
+	            </figcaption>
+	        </figure>
+        </a>
+    </body>
+</html>

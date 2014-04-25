@@ -1,0 +1,127 @@
+// # Card Chapter Introduction
+// Custom styling for chapter introduction cards.
+
+body.card-chapter-introduction {
+    padding-bottom: 0;
+
+    @media screen and (max-width: 600px) {
+		margin-left: 0px;
+	}
+	header {
+		min-height: 100px;
+		margin-bottom: 0;
+		@include full-bleed;
+		//background-image: url('../img/chapter-head.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		
+		.title-info {
+			position: relative;
+			margin: 1em 0 2em 83px;
+			width: 70%;
+            padding-top: 1.3em;
+            padding-bottom: 1em;
+            overflow:hidden;
+			
+            @media screen and (max-width: 600px) {
+                display: block;
+			    
+			}
+			.chapter-number {
+				//font-family: $font-whitney;
+                font-family: $primary-text-font-test;
+				font-size: 0.85em;
+				line-height: 1em;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				color:  $white;
+			}
+			h1 {
+				//font-family: $font-whitney;
+                font-family: $primary-text-font-test;
+				font-weight: 400;
+				font-size: 2em;
+				line-height: 1.3em;
+				color: $white;
+				.section-number {
+					padding-right: .5em;
+					color: $color-2;
+					margin-bottom: .2em;
+				}
+				@media screen and (max-width: 480px) {
+					font-size: 1.6em;
+				}
+			}
+		}
+	}
+	
+}
+
+// Bayer
+
+header {
+
+  .title-info {
+    margin-top: -40px;
+    @include full-bleed-padding;
+    background: $color-1;
+    color: #fff;
+    padding-top: 1.3em;
+    padding-bottom: 1em;
+    position: relative;
+    overflow:hidden;
+
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
+
+    .chapter-number {
+      font-size: 3em;
+      //font-family: $font-whitney;
+      font-family: $primary-text-font-test;
+      font-weight: 600;
+      width: 14%;
+      float: right;
+      text-align: center;
+      padding-left: 3%;
+      color: #fff;
+
+      @media screen and (max-width: 600px) {
+        font-size: 2em;
+        width: auto;
+        padding: 0;
+        float: none;
+        text-align: left;
+        padding-bottom: .5em;
+      }
+    }
+    h1 {
+      //font-family: $font-whitney;
+      font-family: $primary-text-font-test;
+      line-height: 1em;
+      width: 82%;
+      border-right: 1px solid #fff;
+      color: #fff;
+      @include box-sizing(border-box);
+      margin-top: 0;
+
+      @media screen and (max-width: 600px) {
+        font-size: 1.8em;
+        border-right: none;
+        width: auto;
+        border-top: 1px solid #fff;
+        padding-top: .3em;
+        margin-bottom: .2em;
+      }
+     h2 {
+    //font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	font-size: 1.6em;
+	font-weight: 600;
+	line-height: 1.1em;
+	margin: 1em 0 0.5em 0;
+	color: #fff;
+}
+    }
+  }
+}

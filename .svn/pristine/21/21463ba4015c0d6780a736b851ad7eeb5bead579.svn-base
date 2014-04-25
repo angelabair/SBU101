@@ -1,0 +1,81 @@
+//  # Unordered Lists
+// Basic styling options for unordered lists. For some variations the list item content must be wrapped in an 'em' or 'p' depending on the situation.
+//
+// - `.list-no-style` - Removes the bullets.
+// - `.list-inside` - Places bullets inside the list item.
+// - `.list-no-space` - Removes indentation on entire list so that it is flush left.
+// - `.list-item-space` - Adds spacing between list items.
+// - `.list-no-indent` - Removes bullet and indentation.
+// - `.list-second-line-indent` - Indents all lines after the first.
+// - `.list-square-bullet` - Creates square list style.
+// - `.list-custom-color` - Creates option for custom color list style. Override with new pattern 'custom/element/ul' for a different bullet color.
+//      - requires `<em>` or `<p>`.
+// - `.list-custom-bullet` - Creates option for any type of custom bullet. Override with new pattern 'custom/element/ul' for a different bullet type.
+
+ul {
+	list-style-type: disc;
+	padding-left: 2em;
+	margin: 1em 0;
+	ul, ol {
+		margin: 0;
+	}
+	> li {
+		font-weight: 400;
+	}
+	&.list-no-style {
+		list-style-type: none;
+	}
+	&.list-inside {
+		list-style-position: inside;
+	}
+	
+	&.list-no-indent {
+		padding-left: 0;
+		list-style: none;
+	}
+	&.list-second-line-indent {
+		padding-left: 0;
+		list-style: none;
+		> li > p {
+			padding-left: 1em;
+			text-indent: -1em;
+		}
+	}
+	&.list-square-bullet {
+		list-style-type: square;
+	}
+	&.list-custom-color {
+		> li {
+			color: $color-1;
+			em, p {
+				color: #000;
+			}
+		}
+	}
+	&.list-custom-bullet {
+		> li {
+			list-style-type: none;
+			text-indent: 0;
+			p:first-child {
+				display: inline;
+			}
+			&:before {
+				color: $color-1;
+				content: ">";
+				font-weight: 700;
+				margin-left: -1em;
+				padding-right: 0.4em;
+			}
+		}
+	}
+	@include respond-mobile {
+		list-style-position: inside;
+		padding-left: .5em;
+		li {
+			margin-top: 0em;
+		}
+		&.list-custom-bullet li:before {
+			margin-left: 0;
+		}
+	}
+}

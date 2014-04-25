@@ -1,0 +1,25 @@
+// # Card Sub-Reader Common
+// Custom shared styling for sub-reader cards.
+
+body.card-sub-reader {
+	//font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	font-weight: 400;
+	header {
+		padding: 1em 0 .25em 0;
+		@include full-bleed-padding;
+		height: 32px;
+		background-color: $color-2;
+		margin-bottom: 2em;
+		h1 {
+			//font-family: $font-whitney;
+            font-family: $primary-text-font-test;
+			font-size: .9em;
+			font-weight: 500;
+			line-height: normal;
+			text-transform: uppercase;
+			color: #fff;
+			margin: 0;
+		}
+	}
+}

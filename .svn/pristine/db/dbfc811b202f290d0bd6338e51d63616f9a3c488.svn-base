@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<imagefigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="a3a158b56ad840a7ba52fd0f0aea9d67">
+    <title/>
+    <img src="../../img/.templates/placeholder.png" data-uuid="6837fce949374fa7b4ee77c22e4e2cc6"/>
+    <caption>The Image Figure blueprint displays a photograph, illustration, or other image with a scrollable caption. Poptips can provide additional context about the image.</caption>
+    <cite/>
+    <type>illustration</type>
+    <annotations>
+        <!-- This is the first poptip-->
+        <annotation data-uuid="4eb5dd7e64f1441c90b75ca021fc9c25">
+            <orientation>taildown</orientation>
+            <location x="383" y="135"/>          
+            <snippet><text>This is a poptip. You can remove it in Habitat by pressing “delete” or “backspace” on your keyboard.</text></snippet>
+        </annotation>
+        <!-- This is the second poptip-->
+        <annotation data-uuid="2800a46260fd42a385a8e1762beae51d">
+            <orientation>tailleft</orientation>
+            <location x="849" y="587"/>
+            <snippet><text>To draw leader lines, hover over the poptip, then click and drag the “+” icon at its tip.</text></snippet>
+            <destinations>
+                <destination x="692" y="510"/>
+            </destinations>
+        </annotation>
+    </annotations>
+</imagefigure>

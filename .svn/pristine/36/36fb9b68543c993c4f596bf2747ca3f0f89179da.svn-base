@@ -1,0 +1,106 @@
+//  # Ordered Lists
+// Basic styling options for ordered lists. For some variations the list item content must be wrapped in an `<em>` or `<p>` depending on the situation.
+//
+// - `.list-no-style` - Removes enumeration.
+// - `.list-inside` - Places enumeration inside the list item.
+// - `.list-no-space` - Removes indentation on entire list so that it is flush left.
+// - `.list-item-space` - Adds spacing between list items.
+// - `.list-second-line-indent` - Indents all lines after the first.
+// - `.list-bold` - Adds bolding to the list item
+//      - requires `<em>` or `<p>`.
+// - `.list-italic` - Makes list item enumeration italic.
+//      - requires `<em>` or `<p>`.
+// - `.list-custom-color` - Makes list item enumeration color. Override with new pattern 'custom/element/ul' for a different color.
+//      - requires `<em>` or `<p>`.
+// - `.list-upper-roman` - Upper roman enumeration.
+// - `.list-upper-alpha` - Upper alpha enumeration.
+// - `.list-lower-alpha` - Lower alpha enumeration.
+ol {
+	padding-left: 2em;
+	list-style-type: decimal;
+	margin: 1em 0;
+	ol, ul {
+		margin: 0;
+	}
+	> li {
+		font-weight: 400;
+	}
+	&.list-no-style {
+		list-style-type: none;
+	}
+	&.list-inside {
+		list-style-position: inside;
+	}
+	&.list-no-space {
+		margin: 0;
+	}
+	&.list-item-space {
+		> li {
+			margin-bottom: .2em;
+		}
+	}
+	&.list-no-indent {
+		padding-left: 0;
+		list-style: none;
+	}
+	&.list-second-line-indent {
+		padding-left: 0;
+		list-style: none;
+		> li > p {
+			padding-left: 1em;
+			text-indent: -1em;
+		}
+	}
+	&.list-bold {
+		> li {
+			font-weight: 700;
+			em, p {
+				font-weight: 400;
+			}
+		}
+	}
+	&.list-italic {
+		> li {
+			font-style: italic;
+			em, p {
+				font-style: normal;
+			}
+		}
+	}
+	&.list-custom-color {
+		> li {
+			color: $color-1;
+			em, p {
+				color: #000;
+			}
+		}
+	}
+	&.list-upper-roman {
+		list-style-type: upper-roman;
+	}
+	&.list-lower-roman {
+		list-style-type: lower-roman;
+	}
+	&.list-upper-alpha {
+		list-style-type: upper-alpha;
+	}
+	&.list-lower-alpha {
+		list-style-type: lower-alpha;
+	}
+	@include respond-mobile {
+		list-style-position: inside;
+		padding-left: .5em;
+		li {
+			margin-top: .5em;
+		}
+		&.list-parenthesis,
+		&.list-parenthesis-half {
+			padding-left: .5em;
+			& li:before {
+				position: static;
+				width: auto;
+				margin-right: .4em;
+			}
+		}
+	}
+}

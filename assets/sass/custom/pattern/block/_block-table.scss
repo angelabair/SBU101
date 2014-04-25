@@ -1,0 +1,38 @@
+// # Table
+// Default table styling
+table {
+	width: 100%;
+	font-size: 1em;
+	border: none;
+	margin: 1em 0;
+	//font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	tbody tr td {
+		border: 1px solid #ddd;
+	}
+	thead tr td, tbody tr td, tfoot tr td {
+		background: transparent;
+	}
+	thead tr td {
+		font-weight: 700;
+	}
+	td {
+		padding: .2em .5em;
+		font-family: $font-whitney;
+		font-weight: 400;
+	}
+	tfoot td {
+		font-size: .9em;
+	}
+	&.table-border-outer tbody {
+		border: 1px solid #CCC;
+	}
+	&.table-zebra {
+		tbody tr:nth-child(even) {
+			background: #eee;
+		}
+		tbody tr:nth-child(odd) {
+			background: #fff;
+		}
+	}
+}

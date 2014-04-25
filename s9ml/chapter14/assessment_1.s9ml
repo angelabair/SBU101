@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<assessment xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="a98095edd1e6433e8706b82e78f2cd8c">
+    <title/>
+    <questions randomorder="false">  
+<!-- Multiple Choice question type -->
+        <multichoice randomorder="false" data-uuid="7c2cbf67b5d14a249bbdec4d2cefaf6e">
+            <question><i>This is an example of a standard Multiple Choice question.</i> This part of the question is termed the “stem.” After reading the stem, a user can choose to select an answer choice or reveal a hint.</question>  
+            <hint>
+                <text>Hints can help guide users in the right direction, without indicating the correct response. Users can get the help they need while still getting the most out of a question.</text>
+            </hint> 
+            <choices>
+                <choice correct="false" data-uuid="05aa9a5a176040c4a2aea23d019998cf">
+                    <text>Incorrect answer choice A <i>(Select this answer first to see feedback.)</i></text>
+                    <feedback>
+                        <text>This represents an incorrect response. Feedback can be given to help a user understand where they went wrong or to clear up misconceptions. Now try selecting answer choice D.</text>
+                    </feedback>
+                </choice>
+                <choice correct="false" data-uuid="1ad060e897964f4a9c456ef5ea0c023f">
+                    <text>Incorrect answer choice B</text>
+                    <feedback>
+                        <text>This represents an incorrect response.</text>
+                    </feedback>
+                </choice>
+                <choice correct="false" data-uuid="b8b9b7d73bca4b669d15d6ce1190a200">
+                    <text>Incorrect answer choice C</text>
+                    <feedback>
+                        <text>This represents an incorrect response.</text>
+                    </feedback>
+                </choice>
+                <choice correct="true" data-uuid="b2f004fe12614faca0d7d0545cf88b18">
+                    <text>Correct answer choice D</text>
+                    <feedback>
+                        <text>This represents a correct response. Feedback can be provided to reinforce the understanding of the concept being tested. Users can attempt a question many times until they uncover the correct response.</text>
+                    </feedback> 
+                </choice>
+            </choices>
+        </multichoice>
+<!-- END of Multiple Choice question type -->
+<!-- Multiple Answer question type -->
+        <multianswer randomorder="false" data-uuid="f68792a37fa9482cb816d817707ddd1a">
+            <question><i>This is an example of a Multiple Answer question.</i> Which of these answers are correct?</question>
+            <hint>
+                <text>A hint can go here.</text>
+            </hint>
+            <choices>
+                <choice correct="true" data-uuid="305b061afebd485bae81b0356b5182c9">
+                    <text>Correct answer choice A</text>
+                </choice>
+                <choice correct="true" data-uuid="d942651c86ce4827b280df32507b8b55">
+                    <text>Correct answer choice B</text>
+                </choice>
+                <choice correct="true" data-uuid="00c6bbd67657495baa4710d41efe48ec">
+                    <text>Correct answer choice C</text>
+                </choice>
+                <choice correct="false" data-uuid="cd47a66e17594520838af8f84fa709b9">
+                    <text>Incorrect answer choice D</text>
+
+                </choice>
+            </choices>
+        </multianswer>
+<!-- END of Multiple Answer question type -->
+<!-- Ordered question type -->
+        <orderedchoice data-uuid="38aee4ca5ef742d1ae1f85213326f608">
+            <question><i>This is an example of an Ordering question.</i> Place the following answers in the correct order.</question>
+            <hint>
+                <text>A hint can go here.</text>
+            </hint>
+            <choices>
+                <choice data-uuid="d865b0cde64c4ab09a8e1edd77a369fe">
+                    <text>Step 1</text>
+                </choice>
+                <choice data-uuid="ae153fbdc45c447daba85d721598153e">
+                    <text>Step 2</text>
+                </choice>
+                <choice data-uuid="7a59f9e5aa5140098408f054a71d1a2a">
+                    <text>Step 3</text>
+                </choice>
+                <choice data-uuid="aff1a0f51414409aa4c97b3f135f58d8">
+                    <text>Step 4</text>
+                </choice>
+                <choice data-uuid="6ddaea016d374b35867eb5bf08e95df6">
+                    <text>Step 5</text>
+                </choice>
+                <choice data-uuid="8f2a1dfe044944d7acfc0fdf59607027">
+                    <text>Step 6</text>
+                </choice>
+            </choices>
+        </orderedchoice>
+<!-- END of Ordered question type -->
+<!-- True/False question type -->
+        <truefalse data-uuid="9c4318792c1644abaacf1fa02aae09fb">
+            <question><i>This is an example of a True or False question.</i> This statement is true.</question>
+            <choices>
+                <true correct="true" data-uuid="03c9555fc9154e98b665460e779a8b8b">
+                    <feedback>
+                        <text>Feedback can appear here.</text>
+                    </feedback>
+                </true>
+                <false correct="false" data-uuid="3e86cfb9cced4afd8fcab358f0979b1f">
+                    <feedback>
+                        <text>Feedback about the incorrect response can appear here.</text>
+                    </feedback>
+                </false>
+            </choices>
+        </truefalse>
+<!-- END of True/False question type -->
+<!-- Short Answer question type -->
+        <shortanswer data-uuid="d69ab2848bc346bf8f44cb898a226b00">
+            <question><i>This is an example of a Short Answer question.</i> Write a short descriptive answer here.</question>
+            <hint>
+                <text>A hint can go here.</text>
+            </hint>
+            <feedback>
+                <text>Here’s the correct response. Users can read this response after they submit and decide if their answer was correct.</text>
+            </feedback>
+        </shortanswer>
+<!-- END of Short Answer question type -->
+<!-- Matching question type -->
+        <matching data-uuid="853dfcc88e58495292e5923cc04878db">
+            <question><i>This is an example of a Matching question.</i> Match the answers with the labels.</question>
+            <options reusable="true">
+                <option data-uuid="10ed235e104a4e74ad41eb4e70daba84">
+                    <text>Label 0</text>
+                </option>
+                <option data-uuid="5fa741d0e77947349b30c2b7621cd9a9">
+                    <text>Label 1</text>
+                </option>
+                <option data-uuid="fcdb670735f844d795eb31f24dd158a1">
+                    <text>Label 2</text>
+                </option>
+            </options>
+            <choices>
+                <choice options="2" data-uuid="c0181509bf76463ebb8b34ada36972c5">
+                    <text>Matches with label 2</text>
+                </choice>
+                <choice options="0" data-uuid="2511354dc20b4ebd948bce82607572b9">
+                    <text>Matches with label 0</text>
+                </choice>
+                <choice options="1" data-uuid="9e187b4b80aa44948be912a51d78f5d7">
+                    <text>Matches with label 1</text>
+                </choice>
+                <choice options="1" data-uuid="38b9bf8da76e4f65a05bf31cd70e89c9">
+                    <text>Matches with label 1</text>
+                </choice>
+            </choices>
+        </matching>
+<!-- END of Matching question type -->
+        </questions>
+    <result/>
+</assessment>

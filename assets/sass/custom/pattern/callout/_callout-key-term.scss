@@ -1,0 +1,72 @@
+//# Callout Key Term
+.callout-key-term {
+	position: relative;
+	padding-left: 0;
+	color: #fff;
+	h4 {
+		background: $color-1;
+		color: #fff;
+	}
+	h5, > a {
+		color: $color-1;
+		margin-bottom: 0;
+		padding: 10px 60px 10px 65px;
+		&:before {
+			content: "";
+			position: absolute;
+			left: 15px;
+			top: 50%;
+			margin-top: -17px;
+			z-index: 1;
+			background: url("ui/icon-key-term-black.svg") no-repeat;
+			background-size: 80% auto;
+			width: 50px;
+			height: 50px;
+		}
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 22px;
+			border-radius: 3px;
+			background: black url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+	}
+	p {
+		padding: 5px 60px 0 15px;
+	}
+}
+
+.callout-key-term.stack {
+	padding: 1px 0 0 0;
+	h4 {
+		padding-left: 15px;
+		margin: 2px 3px 10px;
+	}
+	h5, > a {
+		display: block;
+		font-size: 1.2em;
+		padding: 15px 30px 15px 52px;
+		margin-bottom: 0;
+		&:before {
+			width: 35px;
+			height: 35px;
+			margin-top: -12px;
+		}
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 22px;
+			background-image: url("ui/icon-arrow-right-gray.svg");
+			background-color: transparent;
+		}
+	}
+}

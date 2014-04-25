@@ -1,0 +1,16 @@
+//#Fraction
+// Use with with the HTML slash entity, e.g., 1&frasl;10
+//
+// Lorem ipsum dolor <sup class="fraction">5</sup>⁄&frasl;sub>8</sub> voluptate velit esse.
+.fraction {
+	position: relative;
+	top: .25em;
+	left: -.2em;
+	margin-left: .25em;
+	+ sub {
+		position: relative;
+		top: -0.2em;
+		margin-left: .1em;
+		margin-right: .2em;
+	}
+}

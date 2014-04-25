@@ -1,0 +1,117 @@
+//## Lists
+//
+
+
+//## Ordered Lists
+ol {
+	padding-left: 1.5em;
+	margin: 0 0 1em 0;
+	
+	ol, ul {
+		margin: 0;
+	}
+	
+	@include respond-mobile {
+		list-style-position: inside;
+		padding-left: .5em;
+		
+		body > & {
+			padding-left: 0;
+		}
+		
+		li {
+			margin-bottom: .8em;
+		}
+	}
+}
+
+//## Unordered Lists
+ul {
+	padding-left: 1em;
+	margin: 0 0 1em 0;
+	
+	ul, ol {
+		margin: 0;
+	}
+	
+	@include respond-mobile {
+		list-style-position: inside;
+		padding-left: 0;
+		
+		li {
+			margin-top: .8em;
+		}
+	}
+}
+
+//## Shared
+ol, ul {
+	> li {
+		font-weight: 400;
+		margin-bottom: 1em;
+	}
+}
+
+.s9-list-input-checkbox, .s9-list-input-radio {
+	list-style-type: none;
+	padding-left: 1.2em;
+
+	> li {
+		margin-bottom: 0.3em;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	@include respond-mobile {
+		padding-left: .5em;
+	}
+}
+
+.list-no-style {
+	list-style-type: none;
+	
+	> li {
+		margin-bottom: 0.3em;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.s9-list-two-col {
+	display: inline-block;
+	
+	@include respond-mobile {
+		list-style-position: inside;
+		padding-left: .5em;
+		
+		body > & {
+			padding-left: 0;
+		}
+	}
+	
+	> li {
+		width: 46%;
+		float: left;
+				
+		&:nth-child(odd) {
+			margin-right: 8%;
+		}
+		
+		&:nth-child(even) {
+			margin-right: 0;
+		}
+		
+		@include respond-mobile {
+			width: 100%;
+			margin-top: .8em;
+			
+			&:nth-child(odd) {
+				margin-right: 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="5d973b501eb041afb8338f727e7f804b">
+    <title>Understanding Diversity </title>
+    <img src="../../img/video_thumb/job409_diversityyoutube_sharing.png" data-uuid="ed4a0a828e2649b2bee5afb164f14c21"/>
+    <video src="[videostream:job409_diversityyoutube_sharing]" width="1280" height="720" data-uuid="6c5d6ef8894f48409d21fc5025c8264f"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption>Opening Doors, Accepting All</caption>
+</videofigure>

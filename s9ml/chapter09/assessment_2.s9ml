@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<assessment xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="d3b23e6e52c44499984e9cf41867040d">
+    <title/>
+    <questions randomorder="false">  
+<!-- Multiple Choice question type -->
+        <multichoice randomorder="false" data-uuid="5250358e2e614d50b980acf254aa1a7d">
+            <question><i>This is an example of a standard Multiple Choice question.</i> This part of the question is termed the “stem.” After reading the stem, a user can choose to select an answer choice or reveal a hint.</question>  
+            <hint>
+                <text>Hints can help guide users in the right direction, without indicating the correct response. Users can get the help they need while still getting the most out of a question.</text>
+            </hint> 
+            <choices>
+                <choice correct="false" data-uuid="703812d14c5e44f3809f0d84a402b7cf">
+                    <text>Incorrect answer choice A <i>(Select this answer first to see feedback.)</i></text>
+                    <feedback>
+                        <text>This represents an incorrect response. Feedback can be given to help a user understand where they went wrong or to clear up misconceptions. Now try selecting answer choice D.</text>
+                    </feedback>
+                </choice>
+                <choice correct="false" data-uuid="90fdac718047470e9054371117432162">
+                    <text>Incorrect answer choice B</text>
+                    <feedback>
+                        <text>This represents an incorrect response.</text>
+                    </feedback>
+                </choice>
+                <choice correct="false" data-uuid="5e67cd9105654c80922f5a81a6d255e9">
+                    <text>Incorrect answer choice C</text>
+                    <feedback>
+                        <text>This represents an incorrect response.</text>
+                    </feedback>
+                </choice>
+                <choice correct="true" data-uuid="5c7c11a7e8f04e8f886c08c4e2a74b35">
+                    <text>Correct answer choice D</text>
+                    <feedback>
+                        <text>This represents a correct response. Feedback can be provided to reinforce the understanding of the concept being tested. Users can attempt a question many times until they uncover the correct response.</text>
+                    </feedback> 
+                </choice>
+            </choices>
+        </multichoice>
+<!-- END of Multiple Choice question type -->
+<!-- Multiple Answer question type -->
+        <multianswer randomorder="false" data-uuid="bed454f374ed48588c4838f3f3e84be6">
+            <question><i>This is an example of a Multiple Answer question.</i> Which of these answers are correct?</question>
+            <hint>
+                <text>A hint can go here.</text>
+            </hint>
+            <choices>
+                <choice correct="true" data-uuid="ec5af23c4c8b41e5b5e97e98b1db733f">
+                    <text>Correct answer choice A</text>
+                </choice>
+                <choice correct="true" data-uuid="84fbb0ca7fac490c9f0b72d256a6a23e">
+                    <text>Correct answer choice B</text>
+                </choice>
+                <choice correct="true" data-uuid="f55cd79b31b743dd915af4fc537a7737">
+                    <text>Correct answer choice C</text>
+                </choice>
+                <choice correct="false" data-uuid="e86ad557c2a44c05b7428c619197f845">
+                    <text>Incorrect answer choice D</text>
+
+                </choice>
+            </choices>
+        </multianswer>
+<!-- END of Multiple Answer question type -->
+<!-- Ordered question type -->
+        <orderedchoice data-uuid="311f854d410a40758d82b46b56e2ce2a">
+            <question><i>This is an example of an Ordering question.</i> Place the following answers in the correct order.</question>
+            <hint>
+                <text>A hint can go here.</text>
+            </hint>
+            <choices>
+                <choice data-uuid="db9d157ccd8b4773b9c4a78a7a2811d8">
+                    <text>Step 1</text>
+                </choice>
+                <choice data-uuid="bf0b87bf919b4ce0af430fb5ea958afc">
+                    <text>Step 2</text>
+                </choice>
+                <choice data-uuid="2ddbfbe23b894a61964d6fb1e98527a1">
+                    <text>Step 3</text>
+                </choice>
+                <choice data-uuid="f52914335b304e74b1cff9be2096e923">
+                    <text>Step 4</text>
+                </choice>
+                <choice data-uuid="496f4257a64f445c9977bd9afc8fbdb3">
+                    <text>Step 5</text>
+                </choice>
+                <choice data-uuid="0b6c38963ac44ea0b657b4a7addee3de">
+                    <text>Step 6</text>
+                </choice>
+            </choices>
+        </orderedchoice>
+<!-- END of Ordered question type -->
+
+<!-- Matching question type -->
+        <matching data-uuid="0c80f91f679849b8a8f9cf4e5871ec55">
+            <question><i>This is an example of a Matching question.</i> Match the answers with the labels.</question>
+            <options reusable="true">
+               <option data-uuid="c094f98bd3b7409180d4f881fe2a651c">
+                    <text>1</text>
+                </option>
+                <option data-uuid="48d69ca9a25b456ea3907ef6ac6c4e23">
+                    <text>2</text>
+                </option>
+                <option data-uuid="3b3d5b62710b468197af37a27a867a02">
+                    <text>3</text>
+                </option>
+                <option data-uuid="8fc71f126eab4230bb3f24991e2abd48">
+                    <text>4</text>
+                </option>
+            </options>
+            <choices>
+                <choice options="2" data-uuid="f454571cada448a1adac30e75bd7657b">
+                    <text>Matches with label 2</text>
+                </choice>
+                <choice options="0" data-uuid="28029a81ea26425687146ac3f7309ffe">
+                    <text>Matches with label 0</text>
+                </choice>
+                <choice options="1" data-uuid="4dff8932eba24136b6386c2b075d63da">
+                    <text>Matches with label 1</text>
+                </choice>
+                <choice options="1" data-uuid="7476337f8ad44e2a8669e2f7387b8419">
+                    <text>Matches with label 1</text>
+                </choice>
+            </choices>
+        </matching>
+<!-- END of Matching question type -->
+        </questions>
+    <result/>
+</assessment>

@@ -1,0 +1,26 @@
+// # Card Chapter Review
+// Custom styling for chapter review cards.
+
+body.card-chapter-review {
+	//font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	font-weight: 400;
+	header {
+		@include full-bleed-padding;
+		@include box-sizing(border-box);
+		padding-top: 1em;
+		height: 50px;
+		background-color: $color-1;
+		margin-bottom: 2em;
+		h1 {
+			//font-family: $font-whitney;
+            font-family: $primary-text-font-test;
+			font-weight: 500;
+			font-size: .9em;
+			line-height: normal;
+			text-transform: uppercase;
+			color: #fff;
+			margin: 0;
+		}
+	}
+}

@@ -1,0 +1,59 @@
+// Color
+// =====
+
+
+$gray1: #666666;
+$gray2: #777777;
+$gray3: #CCCCCC;
+$gray4: #D8D8D8;
+$gray5: #4D4D4D;
+$red: #CB272A;
+$green: #63A83B;
+
+$color-correct: #63A83B;
+$color-incorrect: #CB272A;
+$color-hint: #C6C6C6;
+
+
+// Color Themes
+// =========
+
+// ## Default Colors (Blue)
+$theme:'blue';
+$color-1: #0F9ABA;			
+$color-2: #16ABCE;			
+$color-3: #137891;			
+$color-4: #4293A7;
+$color-5: #035E6D;		
+
+// ## Green
+// $theme:'green';
+// $color-1: #00A77E;			
+// $color-2: #1DBF94;			
+// $color-3: #0A6B4D;			
+// $color-4: #08A377;
+// $color-5: #09422D;						
+
+// ## Orange
+// $theme:'orange';
+// $color-1: #D9531E;			
+// $color-2: #D86A48;			
+// $color-3: #9E3218;			
+// $color-4: #C47965;
+// $color-5: #772717;						
+
+// ## Yellow
+// $theme:'yellow';
+// $color-1: #FCB922;			
+// $color-2: #FCC342;			
+// $color-3: #E59405;			
+// color-4: #E5B06A;	
+// $color-5: #C6820A;					
+
+// ## Violet
+// $theme:'violet';
+// $color-1: #990A74;			
+// $color-2: #9B4889;			
+// $color-3: #8E1677;			
+// $color-4: #9E5994;	
+// $color-5: #600E54;					

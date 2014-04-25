@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<imagefigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="37d49a229e5c44109582eefd774092fe">
+    <title>Earthstock</title>
+    <img src="../../img/chapter01/4635673747_bfbe347b7e_z.jpg" data-uuid="eec214b6d7e34c4284e6b4e8a7d28d8b"/>
+    <caption>The Image Figure blueprint displays a photograph, illustration, or other image with a scrollable caption. Poptips can provide additional context about the image.</caption>
+    <cite/>
+    <type>illustration</type>
+    
+</imagefigure>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="a1184838e83d47798faeacf971fd11cd">
+    <title>Introduction to the Undergraduate Colleges</title>
+    <img src="../../img/video_thumb/job409_undergraduatecollegesrevyoutube_sharing.png" data-uuid="80829a3fcd55457ab1c24f30f5b386ec"/>
+    <video src="[videostream:job409_undergraduatecollegesrevyoutube_sharing]" width="1280" height="720" data-uuid="7e76398b7a3f42c3bbbebe734bd4091a"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption/>
+</videofigure>

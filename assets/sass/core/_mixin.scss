@@ -1,0 +1,177 @@
+// # Mixins
+//
+// Default mixins available to all titles.
+
+// ## Retina Images
+// In order to show 2x versions of background images for retina displays the following mixin should be used.
+//
+// Example usage: @include background-image-retina("../img/equation-sample.png","../img/equation-sample_2x.png");
+//
+// from http://www.brettjankord.com/2012/11/28/cross-browser-retinahigh-resolution-media-queries/
+
+@mixin background-image-retina($image_2x) {
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi) {
+        background-image: url($image_2x);
+    }
+}
+
+// ## Media Queries
+// Providing queries to respond to different widths.
+
+// ## Responds to mobile devices, generally the iPhone
+@mixin respond-mobile {
+	@media only screen and (max-width: 480px) {
+		@content;
+	}
+}
+
+// ## Responds to any specified max-width value in px.
+@mixin respond-max-width($max-width) {
+	@media only screen and (max-width: #{$max-width}) {
+		@content;
+	}
+}
+
+// ## Responds to any specified min-width value in px.
+@mixin respond-min-width($min-width) {
+	@media only screen and (min-width: #{$min-width}) {
+		@content;
+	}
+}
+
+// ## Responds between two values in px.
+@mixin respond-between($min-width, $max-width) {
+	@media screen and (min-width: #{$min-width}) and (max-width: #{$max-width}) {
+		@content;
+	}
+}
+
+// ## Mixins for indentation
+// Mixins used in /custom/pattern/block/_block-default.scss to style paragraphs
+
+@mixin p-indent {
+	& > p {
+		text-indent: 2em;
+		@include respond-mobile {
+			text-indent: 1.5em;
+		}
+	}
+	@each $header in h1, h2, h3, h4, h5, h6 {
+		& > #{$header} + p,
+		& > #{$header} + *:not(p) + p,
+		& > #{$header} + *:not(p) + *:not(p) + p,
+		& > #{$header} + *:not(p) + *:not(p) + *:not(p) + p {
+			text-indent: 0;
+		}
+	}
+	& > p:first-of-type {
+		text-indent: 0;
+	}
+}
+
+// Can be used to set an alternate paragraph style for an element, card type or entire title
+@mixin p-no-indent {
+	> p {
+		text-indent: 0;
+		margin-bottom: 1em;
+	}
+}
+
+// ## Full Bleed
+//
+// Used commonly on header and sections. Makes element run the full width of the page without any padding.
+
+@mixin full-bleed {
+	margin-left: -83px;
+	margin-right: -35px;
+	@include respond-mobile {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+}
+
+.full-bleed {
+	@include full-bleed;
+}
+
+// ## Full Bleed Padding
+//
+// Uses `@mixin full-bleed` as its base but adds padding so that, for example, a section can run full bleed but the content will be properly indented.
+
+@mixin full-bleed-padding {
+	@include full-bleed;
+	padding-left: 83px;
+	padding-right: 35px;
+	@include respond-mobile {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.full-bleed-padding {
+	@include full-bleed-padding;
+}
+
+// ## Restore Padding
+//
+// Restores padding for one-off situations.
+
+@mixin restore-padding {
+	padding-left: 83px;
+	padding-right: 35px;
+	@include respond-mobile {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+// ## Unselectable
+//
+// Used only in rare situations where turning off the ability to select text is desired. Do not use this unless directed to do so.
+
+@mixin unselectable {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+// ## List Parenthesis Counter
+
+// Creates counters List Parenthesis /custom/pattern/list/_list-ol-parenthesis.scss. Pass in the highest number you need to restart a list to.
+
+@mixin list-parenthesis-counter($number) {
+	@for $i from 1 through $number {
+		$counter-start: $i - 1;
+		@each $parenthesis-type in list-parenthesis, list-parenthesis-half {
+			&.#{$parenthesis-type}[start="#{$i}"] {
+				counter-reset: list-start-#{$i} #{$counter-start};
+			}
+			&.#{$parenthesis-type}[start="#{$i}"] > li:before {
+				counter-increment: list-start-#{$i};
+			}
+			&.#{$parenthesis-type}[start="#{$i}"] > li:before {
+				@if $parenthesis-type == "list-parenthesis" {
+					content: "(" counter(list-start-#{$i}) ")";
+				}
+				@if $parenthesis-type == "list-parenthesis-half" {
+					content: counter(list-start-#{$i}) ")";
+				}
+			}
+			@each $list-type in upper-alpha, lower-alpha, upper-roman, lower-roman {
+				&.#{$parenthesis-type}.list-#{$list-type}[start="#{$i}"] > li:before {
+					@if $parenthesis-type == "list-parenthesis" {
+						content: "(" counter(list-start-#{$i}, $list-type) ")";
+					}
+					@if $parenthesis-type == "list-parenthesis-half" {
+						content: counter(list-start-#{$i}, $list-type) ")";
+					}
+				}
+			}
+		}
+	}
+}

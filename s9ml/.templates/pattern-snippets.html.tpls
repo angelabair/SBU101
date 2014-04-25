@@ -1,0 +1,252 @@
+<!-- Section -->
+<script type="application/inkling+patternsnippet" id="section" data-label="Section" data-category="Section">
+<section id="{{@s9id}}">
+    <h2 id="{{@s9id}}">Header</h2>
+    <h3 id="{{@s9id}}">Subheader</h3>
+    <p id="{{@s9id}}">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+    </p>
+    <figure href="https://www.inkling.com/habitat" id="{{@s9id}}">
+        <img id="{{@s9id}}" src="../../img/.templates/stub-landscape.png" />
+    </figure>
+    <p id="{{@s9id}}">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+</section>
+</script>
+
+<!-- Section Sidenote -->
+<script type="application/inkling+patternsnippet" id="section-sidenote" data-label="Section Sidenote" data-category="Section">
+<section id="{{@s9id}}" class="sidenote">
+    <p id="{{@s9id}}">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+</section>
+</script>
+
+<!-- Blockquote -->
+<script type="application/inkling+patternsnippet" id="blockquote" data-label="Blockquote" data-category="Blockquote">
+<blockquote id="{{@s9id}}">
+    <p id="{{@s9id}}">
+        <q>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </q>
+    </p>
+    <p class="credit" id="{{@s9id}}">
+        <span class="credit-title">— Professor Smith</span>,
+        <span class="credit-info">John Hopkins University</span>
+    </p>
+</blockquote>
+</script>
+
+<!-- Paragraph -->
+<script type="application/inkling+patternsnippet" id="paragraph" data-label="Paragraph" data-category="Paragraph">
+<p id="{{@s9id}}">
+    Paragraph text goes here.
+</p>
+</script>
+
+<!-- Ordered List -->
+<script type="application/inkling+patternsnippet" id="ordered-list" data-label="Ordered List" data-category="List">
+<ol id="{{@s9id}}">
+    <li id="{{@s9id}}">
+        <p id="{{@s9id}}">List item 1</p>
+    </li>
+    <li id="{{@s9id}}">
+        <p id="{{@s9id}}">List item 2</p>
+    </li>
+    <li id="{{@s9id}}">
+        <p id="{{@s9id}}">List item 3</p>
+    </li>
+</ol>
+</script>
+
+<!-- Unordered List -->
+<script type="application/inkling+patternsnippet" id="unordered-list" data-label="Unordered List" data-category="List">
+<ul id="{{@s9id}}">
+    <li id="{{@s9id}}">
+        <p id="{{@s9id}}">List item 1</p>
+    </li>
+    <li id="{{@s9id}}">
+        <p id="{{@s9id}}">List item 2</p>
+    </li>
+    <li id="{{@s9id}}">
+        <p id="{{@s9id}}">List item 3</p>
+    </li>
+</ul>
+</script>
+
+<!-- H1 -->
+<script type="application/inkling+patternsnippet" id="h1" data-label="H1" data-category="Heading">
+<h1 id="{{@s9id}}">H1</h1>
+</script>
+
+<!-- H2 -->
+<script type="application/inkling+patternsnippet" id="h2" data-label="H2" data-category="Heading">
+<h2 id="{{@s9id}}">H2</h2>
+</script>
+
+<!-- H3 -->
+<script type="application/inkling+patternsnippet" id="h3" data-label="H3" data-category="Heading">
+<h3 id="{{@s9id}}">H3</h3>
+</script>
+
+<!-- H4 -->
+<script type="application/inkling+patternsnippet" id="h4" data-label="H4" data-category="Heading">
+<h4 id="{{@s9id}}">H4</h4>
+</script>
+
+<!-- H5 -->
+<script type="application/inkling+patternsnippet" id="h5" data-label="H5" data-category="Heading">
+<h5 id="{{@s9id}}">H5</h5>
+</script>
+
+<!-- H6 -->
+<script type="application/inkling+patternsnippet" id="h6" data-label="H6" data-category="Heading">
+<h6 id="{{@s9id}}">H6</h6>
+</script>
+
+<!-- Figure Width Full -->
+<script type="application/inkling+patternsnippet" id="figure-full" data-label="Figure Width Full" data-category="Figure">
+<a href="https://www.inkling.com/habitat" class="width-full">
+    <figure id="{{@s9id}}">
+        <img id="{{@s9id}}" src="../../img/.templates/stub-landscape.png" />
+        <figcaption>
+            <span class="figure-number">
+                <span class="figure-designation">Figure</span>
+                <span class="figure-enumeration">X.X</span>
+            </span>
+            <span class="caption-title">Caption title.</span>
+            <span class="caption-body">Caption body.</span>
+            <span class="caption-citation"></span>
+        </figcaption>
+    </figure>
+</a>
+</script>
+
+<!-- Figure Width Half -->
+<script type="application/inkling+patternsnippet" id="width-half-right" data-label="Figure Width Half" data-category="Figure">
+<a href="https://www.inkling.com/habitat" class="width-half-right">
+    <figure id="{{@s9id}}">
+        <img id="{{@s9id}}" src="../../img/.templates/stub-landscape.png" />
+        <figcaption>
+            <span class="figure-number">
+                <span class="figure-designation">Figure</span>
+                <span class="figure-enumeration">X.X</span>
+            </span>
+            <span class="caption-title">Caption title.</span>
+            <span class="caption-body">Caption body.</span>
+            <span class="caption-citation"></span>
+        </figcaption>
+    </figure>
+</a>
+</script>
+
+<!-- Figure Center -->
+<script type="application/inkling+patternsnippet" id="width-center" data-label="Figure Center" data-category="Figure">
+<a href="https://www.inkling.com/habitat" class="width-center">
+    <figure id="{{@s9id}}">
+        <img id="{{@s9id}}" src="../../img/.templates/stub-landscape.png" />
+        <figcaption>
+            <span class="figure-number">
+                <span class="figure-designation">Figure</span>
+                <span class="figure-enumeration">X.X</span>
+            </span>
+            <span class="caption-title">Caption title.</span>
+            <span class="caption-body">Caption body.</span>
+            <span class="caption-citation"></span>
+        </figcaption>
+    </figure>
+</a>
+</script>
+
+<!-- Inline Image -->
+<script type="application/inkling+patternsnippet" id="inline" data-label="Inline Image" data-category="Image">
+<img id="{{@s9id}}" class="inline icon" src="../../img/.templates/icon.png" />
+</script>
+
+<!-- Callout Box Basic -->
+<script type="application/inkling+patternsnippet" id="callout" data-label="Callout Box Basic" data-category="Callout Box">
+<a href="https://www.inkling.com/habitat" class="callout">
+    <h4 id="{{@s9id}}">Callout Box Header</h4>
+    <figure id="{{@s9id}}">
+        <img id="{{@s9id}}" src="../../img/.templates/stub-landscape.png" />
+    </figure>
+    <h5 id="{{@s9id}}">Callout Box Subheader Title</h5>
+    <h6 id="{{@s9id}}">Callout Box Second Subheader</h6>
+    <p id="{{@s9id}}">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+</a>
+</script>
+
+<!-- Callout Box Simple -->
+<script type="application/inkling+patternsnippet" id="callout-simple" data-label="Callout Box Simple" data-category="Callout Box">
+<a href="https://www.inkling.com/habitat" class="callout callout-simple">
+    <h5 id="{{@s9id}}">Callout Box Title</h5>
+</a>
+</script>
+
+<!-- Table -->
+<script type="application/inkling+patternsnippet" id="table" data-label="Table" data-category="Table">
+<table id="{{@s9id}}">
+    <thead>
+        <tr>
+            <td colspan="3" id="{{@s9id}}">Table Head</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td id="{{@s9id}}">Table Body Row 1 Col 1.</td>
+            <td id="{{@s9id}}">Table Body Row 1 Col 2</td>
+            <td id="{{@s9id}}">Table Body Row 1 Col 3</td>
+        </tr>
+        <tr>
+            <td id="{{@s9id}}">Table Body Row 2 Col 1</td>
+            <td id="{{@s9id}}">Table Body Row 2 Col 2</td>
+            <td id="{{@s9id}}">Table Body Row 2 Col 3</td>
+        </tr>
+        <tr>
+            <td id="{{@s9id}}">Table Body Row 3 Col 1.</td>
+            <td id="{{@s9id}}">Table Body Row 3 Col 2</td>
+            <td id="{{@s9id}}">Table Body Row 3 Col 3</td>
+        </tr>
+        <tr>
+            <td id="{{@s9id}}">Table Body Row 4 Col 1</td>
+            <td id="{{@s9id}}">Table Body Row 4 Col 2</td>
+            <td id="{{@s9id}}">Table Body Row 4 Col 3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Table Footer</td>
+        </tr>
+    </tfoot>
+</table>
+</script>
+
+<!-- Link -->
+<script type="application/inkling+patternsnippet" id="link" data-label="Link" data-custom="true">
+<a href="http://www.domain.com/" class="link-inline">link</a>
+</script>
+
+<!-- Link without icon -->
+<script type="application/inkling+patternsnippet" id="link_without_icon" data-label="Link without icon" data-custom="true" data-recommended="true">
+<a href=""></a>
+</script>
+
+<!-- video callout -->
+<script type="application/inkling+patternsnippet" id="video_callout" data-label="video callout" data-custom="true">
+<a href=".s9ml"
+        class="callout callout-video">
+            <h2 id="">Watch the Video</h2>
+            <figure id="">
+                <img src="../../img/.templates/stub-landscape.png" id=""
+                />
+            </figure>
+            <h5 id=""></h5>
+        </a>
+</script>
+
+<!-- FORM:Text area -->
+<script type="application/inkling+patternsnippet" id="formtext_area" data-label="FORM:Text area" data-custom="true">
+<form id="f561aa3328a0427ca3bc235072161537">
+            <textarea id="869940d300ce44f3ba47220b5536690f"></textarea>
+        </form>
+</script>

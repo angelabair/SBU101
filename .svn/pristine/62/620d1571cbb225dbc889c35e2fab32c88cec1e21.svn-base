@@ -1,0 +1,27 @@
+// # h5
+// Default heading styling.
+
+body > h5, section h5 {
+	//font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	font-weight: bold;
+	font-size: 1.0em;
+	line-height: 1.3em;
+	margin: 1em 0 0.5em 0;
+	color: #000;
+}
+
+
+h5 {
+	&.icon {
+		padding-left: 37px;
+		background: url(../img/temp-icon.svg) 0 0 no-repeat;
+		background-size: 26px 26px;
+	}
+	.enumeration {
+		margin-right: .2em;
+	}
+	h4 + & {
+		margin-top: -.025em;
+	}
+}

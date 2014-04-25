@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" designation="" enumeration="" data-uuid="967e26df878444a982bdbcd29aa22655">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../assets/css/main.css" type="text/css" rel="stylesheet" />
+        <title>Study Habits Assessment</title>
+    </head>
+    <body class="card-chapter-reader">
+        <header data-uuid="cfb6fdbdd9a943ba8be853ac9c3dce0f"><h2 data-uuid="aa19eb978f2a40db85e7a1627e54f4fb">Study Habits Assessment</h2></header>
+        <p data-uuid="9269739e314d4e29bce22a9393fc0d8e"> <b>Directions:</b> Please answer the following questions to help you evaluate your study habits. Then reflect on your answers with your 101 instructor, TA, College Advisor, Residence Hall Director, or someone whom you trust to give critical feedback.</p>1. To do well this semester, I think I should study
+        <form data-uuid="d6ccf1568b82421cb2e60c4c3804152f">
+            <textarea data-uuid="7137af591935485e90b7b1d520437daf"></textarea>.</form>a) less than I did in high school
+        <br />b) the same amount of time I spent studying in high school
+        <br />c) much more often than I did in high school
+        <br />d) I have not thought about it
+        <br />
+        <br />2. In high school I studied
+        <form data-uuid="692d3f920d734be0aa81ae784bd55337">
+            <textarea data-uuid="cf06d64a23624f3a8a2e8a34d05e8857"></textarea>.</form>a) only if I had an upcoming test
+        <br />b) I did not study; I just did homework
+        <br />c) often (during school and at home)
+        <br />d) usually just during study hall
+        <br />
+        <br />3. I study best when
+        <form data-uuid="33dcf50648fb4135a8274ae8f2257df8">
+            <textarea data-uuid="1284d9ec97c44f72a0308fc8b37f9ff0"></textarea>
+        </form>
+        <br />4. For me, the barriers to studying successfully have been
+        <form data-uuid="a5f86062e05049979a601b79a6a997f5">
+            <textarea data-uuid="a1f27cdbc5e248b198421424302d1b5d"></textarea>
+        </form>
+        <br />5. What are some strategies I can employ to improve my study habits?
+        <form data-uuid="2b8179ebbd7e4513a6c726b281687815">
+            <textarea data-uuid="befac418369d476d868b4d5f1ea9a831"></textarea>
+        </form>
+    </body>
+</html>

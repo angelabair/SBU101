@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" designation="" enumeration="" data-uuid="8ecae6fcffa74024ab4cad1f00b51ba6">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../assets/css/main.css" type="text/css" rel="stylesheet" />
+        <title>PICTURES. LOTS OF PICTURES.</title>
+    </head>
+    <body class="card-chapter-reader">
+        <header data-uuid="691afd8b076a449d9af303e8068157ec">
+            <h1 data-uuid="62da5b63f832495d91840d9725b118c3">Title of Reader Card (h1)</h1>
+        </header>
+        <h2 data-uuid="762091a032a54edfb0e3510cf29a0804">Second Level Heading (h2)</h2>
+        <h3 data-uuid="c6d6c9ddab624f33bf35ef714cf14fc3">Third Level Heading (h3)</h3>
+        <p data-uuid="31d2d5ac852a4f269291783881221dd8">Reader cards contain the primary text content for a title. These files are rendered as HTML with text and images, styled with CSS. Switch to <i>Edit mode</i> to make text edits or add or remove patterns from this card.</p>
+        <a href="">
+            <figure data-uuid="188b6defaa4e4a71840ad5d89e0068e9">
+                <img src="../../img/chapter15/play_small.png" alt="" data-uuid="0e3beeaefba74b6b8da6f7b58e1922d6" />
+                <figcaption> <span class="figure-number">
+	                    <span class="figure-designation">Figure</span>
+ <span class="figure-enumeration">1a</span>
+</span> <span class="caption-title">Caption title.</span>
+ <span class="caption-body">Caption body.</span>
+ <span class="caption-citation">Caption citation.</span>
+
+                </figcaption>
+            </figure>
+        </a>
+        <a href="https://www.inkling.com/habitat" class="width-full">
+            <figure data-uuid="fd9bd533e6f04a8dbb3a5e003a326daf">
+                <img src="../../img/chapter15/ch1_historyandtrad.png" data-uuid="0afd6e80c5954c4eb848436125e05c63" />
+            </figure>
+        </a>
+    </body>
+</html>

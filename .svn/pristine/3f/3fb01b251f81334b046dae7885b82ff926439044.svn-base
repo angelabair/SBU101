@@ -1,0 +1,90 @@
+// # Inline Helper Classes
+
+// ## Text Serif
+// Used commonly for math characters that do not render in Chronicle. See the following code example:
+
+.text-serif {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+// ## Force Break
+// Forces breaks in long strings, most often used in unbroken strings like http://url.com/that/goes/on/and/will/not/break/otherwise that appear in table-cells where break-word does not work.
+.force-break {
+	word-break: break-word;
+}
+
+// ## Force Hyphen
+// Use with `<span class="force-hyphen">Longunbrokenwordthatneedsbreaking</span>. Forces breaks at mobile size, otherwise tries to add hyphens for browsers that support it.
+.force-hyphen {
+	@include respond-mobile {
+		word-break: break-all;
+	}
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+//## Indent
+// Forces indent, most often used in paragraphs where indentation is desired.
+
+.indent {
+	text-indent: 2em !important;
+	@include respond-mobile {
+		text-indent: 1.5em !important;
+	}
+}
+
+//## No-indent
+// Forces a no-indent, often on paragraphs that have unwanted indentation.
+
+.no-indent {
+	text-indent: 0 !important;
+}
+
+//## General Helpers
+
+.inline {
+	display: inline !important;
+}
+
+.no-bold {
+	font-weight: 400 !important;
+}
+
+.no-italic {
+	font-style: normal !important;
+}
+
+.underline {
+	text-decoration: underline !important;
+}
+
+.no-line-break {
+	white-space: nowrap !important;
+}
+
+.center-align {
+	text-align: center !important;
+}
+
+.right-align {
+	text-align: right !important;
+}
+
+.double-space {
+	line-height: 2em !important;
+}
+
+.lowercase {
+	text-transform: lowercase !important;
+}
+
+.uppercase {
+	text-transform: uppercase !important;
+	letter-spacing: .1em;
+}
+
+.overline {
+	text-decoration: overline !important;
+}

@@ -1,0 +1,954 @@
+// # Callout: Shared styling
+// Baseline styling for all callouts, edit individual callout files or this global code to change styling.
+
+.callout {
+	border-radius: 5px;
+	box-shadow: 0 0 5px #999;
+	background: $color-4;
+	padding: 8px 15px 15px 15px;
+	@include pie-clearfix;
+	display: block;
+	margin: 1em 0;
+	@include respond-mobile {
+		min-height: 75px;
+	}
+
+	h2 {
+		background: $color-1;
+		box-shadow: 0 0 6px #999;
+		color: #ffffff;
+		border-radius: 3px;
+		margin: -4px -12px 15px;
+		padding: 8px 30px 8px 15px;
+		position: relative;
+		z-index: 1;
+		font-family: $font-whitney;
+		font-weight: 500;
+		font-size: 1.1em;
+		line-height: normal;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 24px;
+			border-radius: 3px;
+			background: url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+		@include respond-mobile {
+			font-size: 1.0em;
+		}
+		
+		& + h5 {
+		margin-top: 0;
+		}
+	}
+	figure {
+        //changed from 23% -Aaron
+		width: 30%;
+		float: right;
+		margin: 0 0 0 1em;
+		//changed from 145px -Aaron
+        max-width: 200px;
+		img {
+			margin-bottom: 0;
+		}
+		@include respond-mobile {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	h5, &.stack > a {
+		font: 500 1.4em / 1em $font-whitney;
+		margin-bottom: .2em;
+		color: $color-1;
+		@include respond-mobile {
+			padding-left: 0;
+			font-size: 1.2em;
+		}
+	}
+	&.stack > a {
+		margin: 0 0 5px;
+		border-bottom: 1px dashed #ccc;
+		padding: 12px 15px 12px 0;
+		position: relative;
+		&:last-child {
+			border: none;
+			margin-bottom: 0;
+		}
+	}
+	&.stack h4 + a {
+		margin-top: -10px;
+	}
+	h6 {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		margin-top: .5em;
+		margin-bottom: .2em;
+		color: $color-1;
+	}
+	h5 + h6 {
+		margin-top: 1em;
+		}
+	p {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 400;
+		color: #666;
+	}
+	&.width-half {
+		figure {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	@include respond-mobile {
+		min-height: auto;
+	}
+}
+//this is a trial piece for the ug colleges-ANYA
+.callout-orange
+{
+    border-radius: 5px;
+	box-shadow: 0 0 5px #999;
+	background: $color-4;
+	padding: 8px 15px 15px 15px;
+	@include pie-clearfix;
+	display: block;
+	margin: 1em 0;
+	@include respond-mobile {
+		min-height: 75px;
+	}
+
+	h2 {
+		background:#FF8D00;
+		box-shadow: 0 0 6px #999;
+		color: #ffffff;
+		border-radius: 3px;
+		margin: -4px -12px 15px;
+		padding: 8px 30px 8px 15px;
+		position: relative;
+		z-index: 1;
+		font-family: $font-whitney;
+		font-weight: 500;
+		font-size: 1.1em;
+		line-height: normal;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 24px;
+			border-radius: 3px;
+			background: url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+		@include respond-mobile {
+			font-size: 1.0em;
+		}
+		
+		& + h5 {
+		margin-top: 0;
+		}
+	}
+	figure {
+        //changed from 23% -Aaron
+		width: 30%;
+		float: right;
+		margin: 0 0 0 1em;
+		//changed from 145px -Aaron
+        max-width: 200px;
+		img {
+			margin-bottom: 0;
+		}
+		@include respond-mobile {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	h5, &.stack > a {
+		font: 500 1.4em / 1em $font-whitney;
+		margin-bottom: .2em;
+		color: #FF8D00;
+		@include respond-mobile {
+			padding-left: 0;
+			font-size: 1.2em;
+		}
+	}
+	&.stack > a {
+		margin: 0 0 5px;
+		border-bottom: 1px dashed #ccc;
+		padding: 12px 15px 12px 0;
+		position: relative;
+		&:last-child {
+			border: none;
+			margin-bottom: 0;
+		}
+	}
+	&.stack h4 + a {
+		margin-top: -10px;
+	}
+	h6 {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		margin-top: .5em;
+		margin-bottom: .2em;
+		color:#FF8D00;
+	}
+	h5 + h6 {
+		margin-top: 1em;
+		}
+	p {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 400;
+		color: #FF8D00;
+	}
+	&.width-half {
+		figure {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	@include respond-mobile {
+		min-height: auto;
+	}
+}
+//Purple
+.callout-purple
+{
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+	background: $color-4;
+	padding: 8px 15px 15px 15px;
+	@include pie-clearfix;
+	display: block;
+	margin: 1em 0;
+	@include respond-mobile {
+		min-height: 75px;
+	}
+
+	h2 {
+		background:#61049F;
+		box-shadow: 0 0 6px #999;
+		color: #ffffff;
+		border-radius: 3px;
+		margin: -4px -12px 15px;
+		padding: 8px 30px 8px 15px;
+		position: relative;
+		z-index: 1;
+		font-family: $font-whitney;
+		font-weight: 500;
+		font-size: 1.1em;
+		line-height: normal;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 24px;
+			border-radius: 3px;
+			background: url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+		@include respond-mobile {
+			font-size: 1.0em;
+		}
+		
+		& + h5 {
+		margin-top: 0;
+		}
+	}
+	figure {
+        //changed from 23% -Aaron
+		width: 30%;
+		float: right;
+		margin: 0 0 0 1em;
+		//changed from 145px -Aaron
+        max-width: 200px;
+		img {
+			margin-bottom: 0;
+		}
+		@include respond-mobile {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	h5, &.stack > a {
+		font: 500 1.4em / 1em $font-whitney;
+		margin-bottom: .2em;
+		color: #61049F;
+		@include respond-mobile {
+			padding-left: 0;
+			font-size: 1.2em;
+		}
+	}
+	&.stack > a {
+		margin: 0 0 5px;
+		border-bottom: 1px dashed #ccc;
+		padding: 12px 15px 12px 0;
+		position: relative;
+		&:last-child {
+			border: none;
+			margin-bottom: 0;
+		}
+	}
+	&.stack h4 + a {
+		margin-top: -10px;
+	}
+	h6 {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		margin-top: .5em;
+		margin-bottom: .2em;
+		color:#61049F;
+	}
+	h5 + h6 {
+		margin-top: 1em;
+		}
+	p {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 400;
+		color: #61049F;
+	}
+	&.width-half {
+		figure {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	@include respond-mobile {
+		min-height: auto;
+	}
+}
+//Yellow
+.callout-yellow
+{
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    background: $color-4;
+	padding: 8px 15px 15px 15px;
+	@include pie-clearfix;
+	display: block;
+	margin: 1em 0;
+	@include respond-mobile {
+		min-height: 75px;
+	}
+
+	h2 {
+		background:#FFC000;
+		box-shadow: 0 0 6px #999;
+		color: #ffffff;
+		border-radius: 3px;
+		margin: -4px -12px 15px;
+		padding: 8px 30px 8px 15px;
+		position: relative;
+		z-index: 1;
+		font-family: $font-whitney;
+		font-weight: 500;
+		font-size: 1.1em;
+		line-height: normal;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 24px;
+			border-radius: 3px;
+			background: url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+		@include respond-mobile {
+			font-size: 1.0em;
+		}
+		
+		& + h5 {
+		margin-top: 0;
+		}
+	}
+	figure {
+        //changed from 23% -Aaron
+		width: 30%;
+		float: right;
+		margin: 0 0 0 1em;
+		//changed from 145px -Aaron
+        max-width: 200px;
+		img {
+			margin-bottom: 0;
+		}
+		@include respond-mobile {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	h5, &.stack > a {
+		font: 500 1.4em / 1em $font-whitney;
+		margin-bottom: .2em;
+		color: #FFC000;
+		@include respond-mobile {
+			padding-left: 0;
+			font-size: 1.2em;
+		}
+	}
+	&.stack > a {
+		margin: 0 0 5px;
+		border-bottom: 1px dashed #ccc;
+		padding: 12px 15px 12px 0;
+		position: relative;
+		&:last-child {
+			border: none;
+			margin-bottom: 0;
+		}
+	}
+	&.stack h4 + a {
+		margin-top: -10px;
+	}
+	h6 {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		margin-top: .5em;
+		margin-bottom: .2em;
+		color:#FFC000;
+	}
+	h5 + h6 {
+		margin-top: 1em;
+		}
+	p {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 400;
+		color: #FFC000;
+	}
+	&.width-half {
+		figure {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	@include respond-mobile {
+		min-height: auto;
+	}
+}
+//Purple
+.callout-purple
+{
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    background: $color-4;
+	padding: 8px 15px 15px 15px;
+	@include pie-clearfix;
+	display: block;
+	margin: 1em 0;
+	@include respond-mobile {
+		min-height: 75px;
+	}
+
+	h2 {
+		background:#61049F;
+		box-shadow: 0 0 6px #999;
+		color: #ffffff;
+		border-radius: 3px;
+		margin: -4px -12px 15px;
+		padding: 8px 30px 8px 15px;
+		position: relative;
+		z-index: 1;
+		font-family: $font-whitney;
+		font-weight: 500;
+		font-size: 1.1em;
+		line-height: normal;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 24px;
+			border-radius: 3px;
+			background: url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+		@include respond-mobile {
+			font-size: 1.0em;
+		}
+		
+		& + h5 {
+		margin-top: 0;
+		}
+	}
+	figure {
+        //changed from 23% -Aaron
+		width: 30%;
+		float: right;
+		margin: 0 0 0 1em;
+		//changed from 145px -Aaron
+        max-width: 200px;
+		img {
+			margin-bottom: 0;
+		}
+		@include respond-mobile {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	h5, &.stack > a {
+		font: 500 1.4em / 1em $font-whitney;
+		margin-bottom: .2em;
+		color: #61049F;
+		@include respond-mobile {
+			padding-left: 0;
+			font-size: 1.2em;
+		}
+	}
+	&.stack > a {
+		margin: 0 0 5px;
+		border-bottom: 1px dashed #ccc;
+		padding: 12px 15px 12px 0;
+		position: relative;
+		&:last-child {
+			border: none;
+			margin-bottom: 0;
+		}
+	}
+	&.stack h4 + a {
+		margin-top: -10px;
+	}
+	h6 {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		margin-top: .5em;
+		margin-bottom: .2em;
+		color:#61049F;
+	}
+	h5 + h6 {
+		margin-top: 1em;
+		}
+	p {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 400;
+		color: #61049F;
+	}
+	&.width-half {
+		figure {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	@include respond-mobile {
+		min-height: auto;
+	}
+}
+//Yellow
+.callout-yellow
+{
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    background: $color-4;
+	padding: 8px 15px 15px 15px;
+	@include pie-clearfix;
+	display: block;
+	margin: 1em 0;
+	@include respond-mobile {
+		min-height: 75px;
+	}
+
+	h2 {
+		background:#FFC000;
+		box-shadow: 0 0 6px #999;
+		color: #ffffff;
+		border-radius: 3px;
+		margin: -4px -12px 15px;
+		padding: 8px 30px 8px 15px;
+		position: relative;
+		z-index: 1;
+		font-family: $font-whitney;
+		font-weight: 500;
+		font-size: 1.1em;
+		line-height: normal;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 24px;
+			border-radius: 3px;
+			background: url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+		@include respond-mobile {
+			font-size: 1.0em;
+		}
+		
+		& + h5 {
+		margin-top: 0;
+		}
+	}
+	figure {
+        //changed from 23% -Aaron
+		width: 30%;
+		float: right;
+		margin: 0 0 0 1em;
+		//changed from 145px -Aaron
+        max-width: 200px;
+		img {
+			margin-bottom: 0;
+		}
+		@include respond-mobile {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	h5, &.stack > a {
+		font: 500 1.4em / 1em $font-whitney;
+		margin-bottom: .2em;
+		color: #FFC000;
+		@include respond-mobile {
+			padding-left: 0;
+			font-size: 1.2em;
+		}
+	}
+	&.stack > a {
+		margin: 0 0 5px;
+		border-bottom: 1px dashed #ccc;
+		padding: 12px 15px 12px 0;
+		position: relative;
+		&:last-child {
+			border: none;
+			margin-bottom: 0;
+		}
+	}
+	&.stack h4 + a {
+		margin-top: -10px;
+	}
+	h6 {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		margin-top: .5em;
+		margin-bottom: .2em;
+		color:#FFC000;
+	}
+	h5 + h6 {
+		margin-top: 1em;
+		}
+	p {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 400;
+		color: #FFC000;
+	}
+	&.width-half {
+		figure {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	@include respond-mobile {
+		min-height: auto;
+	}
+}
+//Green
+.callout-green
+{
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    background: $color-4;
+    padding: 8px 15px 15px 15px;
+	@include pie-clearfix;
+	display: block;
+	margin: 1em 0;
+	@include respond-mobile {
+		min-height: 75px;
+	}
+
+	h2 {
+		background:#077A47;
+		box-shadow: 0 0 6px #999;
+		color: #ffffff;
+		border-radius: 3px;
+		margin: -4px -12px 15px;
+		padding: 8px 30px 8px 15px;
+		position: relative;
+		z-index: 1;
+		font-family: $font-whitney;
+		font-weight: 500;
+		font-size: 1.1em;
+		line-height: normal;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 24px;
+			border-radius: 3px;
+			background: url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+		@include respond-mobile {
+			font-size: 1.0em;
+		}
+		
+		& + h5 {
+		margin-top: 0;
+		}
+	}
+	figure {
+        //changed from 23% -Aaron
+		width: 30%;
+		float: right;
+		margin: 0 0 0 1em;
+		//changed from 145px -Aaron
+        max-width: 200px;
+		img {
+			margin-bottom: 0;
+		}
+		@include respond-mobile {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	h5, &.stack > a {
+		font: 500 1.4em / 1em $font-whitney;
+		margin-bottom: .2em;
+		color: #077A47;
+		@include respond-mobile {
+			padding-left: 0;
+			font-size: 1.2em;
+		}
+	}
+	&.stack > a {
+		margin: 0 0 5px;
+		border-bottom: 1px dashed #ccc;
+		padding: 12px 15px 12px 0;
+		position: relative;
+		&:last-child {
+			border: none;
+			margin-bottom: 0;
+		}
+	}
+	&.stack h4 + a {
+		margin-top: -10px;
+	}
+	h6 {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		margin-top: .5em;
+		margin-bottom: .2em;
+		color:#077A47;
+	}
+	h5 + h6 {
+		margin-top: 1em;
+		}
+	p {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 400;
+		color: #077A47;
+	}
+	&.width-half {
+		figure {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	@include respond-mobile {
+		min-height: auto;
+	}
+}
+
+//Blue
+.callout-blue
+{
+    border-radius: 5px;
+    box-shadow: 0 0 5px #999;
+    background: $color-4;
+    padding: 8px 15px 15px 15px;
+    @include pie-clearfix;
+	display: block;
+	margin: 1em 0;
+	@include respond-mobile {
+		min-height: 75px;
+	}
+
+	h2 {
+		background:#203DA4;
+		box-shadow: 0 0 6px #999;
+		color: #ffffff;
+		border-radius: 3px;
+		margin: -4px -12px 15px;
+		padding: 8px 30px 8px 15px;
+		position: relative;
+		z-index: 1;
+		font-family: $font-whitney;
+		font-weight: 500;
+		font-size: 1.1em;
+		line-height: normal;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 24px;
+			border-radius: 3px;
+			background: url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+		@include respond-mobile {
+			font-size: 1.0em;
+		}
+		
+		& + h5 {
+		margin-top: 0;
+		}
+	}
+	figure {
+        //changed from 23% -Aaron
+		width: 30%;
+		float: right;
+		margin: 0 0 0 1em;
+		//changed from 145px -Aaron
+        max-width: 200px;
+		img {
+			margin-bottom: 0;
+		}
+		@include respond-mobile {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	h5, &.stack > a {
+		font: 500 1.4em / 1em $font-whitney;
+		margin-bottom: .2em;
+		color: #203DA4;
+		@include respond-mobile {
+			padding-left: 0;
+			font-size: 1.2em;
+		}
+	}
+	&.stack > a {
+		margin: 0 0 5px;
+		border-bottom: 1px dashed #ccc;
+		padding: 12px 15px 12px 0;
+		position: relative;
+		&:last-child {
+			border: none;
+			margin-bottom: 0;
+		}
+	}
+	&.stack h4 + a {
+		margin-top: -10px;
+	}
+	h6 {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		margin-top: .5em;
+		margin-bottom: .2em;
+		color:#203DA4;
+	}
+	h5 + h6 {
+		margin-top: 1em;
+		}
+	p {
+		font-family: $font-whitney;
+		font-size: .9em;
+		line-height: normal;
+		font-weight: 400;
+		color: #203DA4;
+	}
+	&.width-half {
+		figure {
+			float: none;
+			width: auto;
+			margin: -15px 0 0.7em 0;
+			max-width: 100%;
+		}
+	}
+	@include respond-mobile {
+		min-height: auto;
+	}
+}

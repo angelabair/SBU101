@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="ce2c8317808c40d2b47cf8316e77f2e3">
+    <title>Effective Communication</title>
+    <img src="../../img/video_thumb/job409_communicationyoutube_sharing.png" data-uuid="3a6d96e7569748e3aac2695344a08a2d"/>
+    <video src="[videostream:job409_communicationyoutube_sharing]" width="1280" height="720" data-uuid="d685513ac9cb4cd591b0e32347503ab5"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption/>
+</videofigure>

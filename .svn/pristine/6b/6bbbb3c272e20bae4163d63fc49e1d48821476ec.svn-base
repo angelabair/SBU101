@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sliderfigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="487a72203eb84568a9fa5484f22ca2eb">
+    <title>Cycle of Socialization RE: Difference and  Inequality</title>
+    <!-- <caption> must be present, can be empty -->
+    <caption>Use the scroll bar to see all three phases.</caption><cite>Peabody</cite>
+    <type>illustration</type>
+    <slider discrete="false">
+        <start value="0">Start</start>
+        <step value="0" data-uuid="7f2d9bf2f20e4d8eaa4e852a973c2a33">
+            <img src="../../img/chapter04/cycle_of_soc1.png" data-uuid="3e2cf2fa642143eea430dec9cb58a13f"/>
+            <!-- <label> optional -->
+            <label>1</label>
+            <!-- <caption> optional -->
+            <caption>Lens of Indentity</caption> 
+        </step>
+        <step value="1" data-uuid="7410b07d1d944aecb9cdf022f94f9298">
+            <img src="../../img/chapter04/cycle_of_soc3.png" data-uuid="959ac9b93deb4c3e98e117758b82ff8f"/>
+            <!-- <label> optional -->
+            <label>2</label>
+            <!-- <caption> optional -->
+            <caption>Lens of Socialization and Teaching</caption> 
+        </step>
+        <step value="2" data-uuid="a2c56f8b46f54c5b8843fc8c18d212bd">
+            <img src="../../img/chapter04/cycle_of_soc4.png" data-uuid="40beca101e664a229412c757809fa7d3"/>
+            <!-- <label> optional -->
+            <label>3</label>
+            <!-- <caption> optional -->
+            <caption>Lens of Experience</caption> 
+        </step>
+        <end value="2">End</end>
+    </slider>
+</sliderfigure>

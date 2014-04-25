@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="fbe4594658f84033946373092c5b0250">
+    <title>Academic Success</title>
+    <img src="../../img/video_thumb/sbu101_2013_acadmeic_successyoutube_sharing.png" data-uuid="bd66a61b813841698134f7eb8258174f"/>
+    <video src="[videostream:sbu101_2013_acadmeic_successyoutube_sharing]" width="1280" height="720" data-uuid="927b0c4687b14dd093372006efe9399d"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption> © Stony Brook University</caption>
+</videofigure>

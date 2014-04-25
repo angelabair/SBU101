@@ -1,0 +1,26 @@
+// #h3
+// Default heading styling.
+
+body > h3, section > h3 {
+	//font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	font-weight: 500;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	margin: 1em 0 0.5em 0;
+	color: $color-2;
+}
+
+h3 {
+	&.icon {
+		padding-left: 42px;
+		background: url(../img/temp-icon.svg) 0 0 no-repeat;
+		background-size: 30px 30px;
+	}
+	.enumeration {
+		margin-right: .2em;
+	}
+	h2 + & {
+		margin-top: -0.25em;
+	}
+}

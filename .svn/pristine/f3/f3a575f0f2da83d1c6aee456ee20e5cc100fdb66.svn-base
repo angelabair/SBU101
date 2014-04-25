@@ -1,0 +1,145 @@
+//## Inputs: text, radio buttons, checkboxes
+//
+
+
+//## Checkbox
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	display: none;
+	cursor: pointer;
+		
+	+ label {
+		position: relative;
+		line-height: 1.422em;
+		
+		@include respond-mobile {
+			margin-left: .55em;
+		}
+	}
+	
+	+ label:before {
+		@include unselectable;
+		height: 12px;
+		width: 12px;
+		content: '';
+		position: absolute;
+		left: -1.2em;
+		margin-top: 6px;
+		border: 1px solid $gray3;
+		background-color: #F2F2F2;
+		@include background(linear-gradient(#F2F2F2,#E6E6E6));
+		
+		@include respond-mobile {
+			left: -17px;
+		}
+	}
+	
+  &:active + label:before {
+		@include background(linear-gradient($gray4,#F2F2F2));
+  }
+	
+	&:checked + label:after {
+		position: absolute;
+		left: -22px;
+		top: -5px;
+		margin-top: 1px;
+		content: '';
+		width: 19px;
+		height: 25px;
+		@include icon-color-checkbox($theme);
+		background-size: 17px auto;
+		background-position: 0 -1px;
+		background-repeat: no-repeat;
+		
+		@include respond-mobile {
+			width: 21px;
+			height: 19px;
+			background-position: 5px 0;
+		}
+	}
+}
+
+//## Radio Buttons
+input[type="radio"] {
+	@extend input[type="checkbox"];
+	
+	+ label:before {
+		border-radius: 50px;
+	}
+	
+	&:checked + label:after {
+		position: absolute;
+		left: -19px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    top: 3px;
+		@include background(linear-gradient($color-2,$color-1));
+		
+		@include respond-mobile {
+			left: -14px;
+			top: 4px;
+		}
+  }
+}
+
+
+// Checkbox & Radio Buttons shared
+input[type="checkbox"], input[type="radio"] {
+	li & {
+		margin-left: -1.8em;
+		
+		@include respond-mobile {
+			margin-left: -0.6em;
+		}
+	}
+}
+
+//## Text
+input[type="text"] {
+	@include text-input;
+	
+	.s9-list-two-col > li &, .s9-list-two-col > li:first-child p + &, .s9-list-two-col > li & {
+		width: 100%;
+	}
+	
+	.s9-list-two-col > li p + & {
+		margin-top: -.8em;
+	}
+	
+	@include respond-mobile {
+		.s9-list-two-col > li p + &, .s9-list-two-col > li:first-child p + & {
+			width: 100%;
+		}
+		
+		.s9-list-two-col > li & {
+			width: 92%;
+			margin-left: 0;
+			float: right;
+			margin-top: -.4em;
+		}
+		
+		ul.s9-list-two-col > li & {
+			width: 95%;
+		}
+	}
+		
+	// Inline Input Text
+	.s9-inline-input-text & {
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		display: inline;
+		width: 200px;
+		margin-right: 3px; 
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 4px;
+	}
+}
+
+//Inline Input Text
+.s9-inline-input-text {
+	line-height: 2.5em;
+}
+

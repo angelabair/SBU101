@@ -1,0 +1,47 @@
+//# Custom Mixins
+
+// ## Width Half
+//
+// Used to float figures and other elements to the right at roughly half of the width of the page.
+//
+// Can be used as a class `.width-half-right` on figures, sidenotes, as needed, where it's not practical to target individual elements in the CSS.
+//
+// `max-width: 325px;` is for reflow: prevents embedded figures from becoming too large on desktop web.
+//
+// Note: Reflowing to the mobile view makes them run the full width of the page.
+
+@mixin width-half-right {
+	width: 45%;
+	float: right;
+	clear: right;
+	margin: 0.5em 0 1em 1em !important;
+	max-width: 325px;
+	display: block;
+	> figure {
+		margin-top: 0;
+	}
+	@include respond-mobile {
+		max-width: 100%;
+		width: auto;
+		float: none;
+		clear: both;
+		margin-left: 0 !important;
+		margin-right: !important;
+	}
+}
+
+// ## Center
+// Centers an element, usually used for figures.
+
+@mixin width-center {
+	clear: both;
+	display: block;
+	max-width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	background: none;
+	padding: 0;
+	@include respond-mobile {
+		max-width: 100%;
+	}
+}

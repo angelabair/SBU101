@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="38635ef39d404d75892bd6b3a4ec4f67">
+    <title>How can you get involved?</title>
+    <img src="../../img/video_thumb/job_409_becoming_involved_on_campus_3.png" data-uuid="531c35cbe8494638a91c86a2c2b35ba1"/>
+    <video src="[videostream:job_409_becoming_involved_on_campus_3]" width="1280" height="720" data-uuid="98075a22cece4a74b3dd3744fb45d43a"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption/>
+</videofigure>

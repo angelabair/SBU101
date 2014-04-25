@@ -1,0 +1,41 @@
+// # Figure Caption Position
+// Figure with captions on either left or right. Caption shouldn't run longer than the image.
+//
+// - `.caption-left` - Places caption on left.
+// - `.caption-right` - Places caption on right.
+
+a, figure {
+	&.caption-left,
+	&.caption-right  {
+		display: block;
+		overflow: hidden;
+		img {
+			width: 55%;
+			background: none;
+			@include box-sizing(border-box);
+			background: none;
+			float: right;
+			@media screen and (max-width: 480px) {
+				float: none;
+				width: 100%;
+			}
+		}
+		figcaption {
+			float: left;
+			max-height: 6em;
+			width: 40%;
+			@media screen and (max-width: 480px) {
+				float: none;
+				width: 100%;
+			}
+		}
+	}
+	&.caption-right {
+		img {
+			float: left;
+		}
+		figcaption {
+			float: right;
+		}
+	}
+}

@@ -1,0 +1,83 @@
+// ## Blockquote
+
+blockquote {
+	margin: 1em 2em;
+	//font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	font-weight: 400;
+	@include respond-max-width(600px) {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+	p {
+        //changed from color-1 (SBU red) for now -Aaron
+		color: $color-2;
+		text-indent: 2em;
+		&:first-of-type {
+			text-indent: 0;
+		}
+	}
+	p.credit {
+		color: $color-2;
+		margin-top: .5em;
+		text-indent: 0;
+		//font: 400 0.9em $font-whitney;
+        font-family: $primary-text-font-test;
+		.credit-title {
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+	}
+	&.blockquote-image {
+		@include full-bleed;
+		padding-right: 20px;
+		background: $color-4;
+		padding-top: 1em;
+		overflow: hidden;
+		figure {
+			float: left;
+			width: 25%;
+			margin: -1em 0 0;
+			img {
+				margin-bottom: 0;
+			}
+		}
+		p {
+			padding-left: 28%;
+			text-indent: 0;
+			&:last-child {
+				margin-bottom: 1em;
+			}
+		}
+		@include respond-max-width(600px) {
+			padding: 20px;
+			figure {
+				width: auto;
+				margin: -20px -20px 1em -20px;
+				float: none;
+			}
+			p {
+				text-indent: 0;
+				padding-left: 0;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		&.width-half-right {
+			@include width-half-right;
+			background: #eee;
+			padding: 20px;
+			figure {
+				float: none;
+				width: auto;
+				margin: -20px -20px 1em -20px;
+			}
+			p {
+				padding: 0;
+			}
+		}
+	}
+}

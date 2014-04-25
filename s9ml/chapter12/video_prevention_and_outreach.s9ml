@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="6126250ac5fc41fd850b449027e4b1b5">
+    <title>Prevention and Outreach</title>
+    <img src="../../img/video_thumb/prevention_and_outreach.png" data-uuid="ae71d63981814aed897f136518ada508"/>
+    <video src="[videostream:prevention_and_outreach]" width="1280" height="720" data-uuid="3c2dbac229c5420cad62f4fcb364567b"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption/>
+</videofigure>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="0ae174021de2466e8260a2e7b0fe611e">
+    <title>What’s your favorite SBU tradition?</title>
+    <img src="../../img/video_thumb/job409_historytraditionsyoutube_sharing.png" data-uuid="f7de66a4c865434db9e3aaf350a7fe61"/>
+    <video src="[videostream:job409_historytraditionsyoutube_sharing]" width="1280" height="720" data-uuid="c2194032b6a140528d7c4166d0ba3ced"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption/>
+</videofigure>
