@@ -1,0 +1,23 @@
+// # h6
+// Default heading styling.
+
+h6 {
+	font-family: $font-whitney;
+	font-weight: 500;
+	font-size: 1.1em;
+	line-height: 1.2em;
+	margin: 1em 0 0.5em 0;
+	font-style: italic;
+	color: $color-2;
+	&.icon {
+		padding-left: 35px;
+		background: url(../img/temp-icon.svg) 0 0 no-repeat;
+		background-size: 24px 24px;
+	}
+	.enumeration {
+		margin-right: .5em;
+	}
+	h5 + & {
+	margin-top: -.25em;
+	}
+}

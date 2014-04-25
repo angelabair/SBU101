@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<toc xmlns="http://www.standardnine.com/s9ml" data-uuid="8c41958094cb414abaefd924fa7de26b">
+    <metadata thumbnailpath="../img/your_first_year_at_stony_brook1/sbu101_photov2.png">
+        <remarks path="remarks.s9ml" />
+        <edition>2</edition>
+        <title>Your First Year at Stony Brook: 2014-2015</title>
+        <author>Stony Brook University</author>
+        <publisher>SBU Media Team</publisher>
+        <shortname>sbu101_2014_fork</shortname>
+        <pubdate>Publish Date</pubdate>
+        <version>Version</version>
+        <revision>Revision</revision>
+        <s9version>s9version</s9version>
+        <productid>Product ID</productid>
+        <bundleconfig path="config.s9ml" />
+        <reflowable>true</reflowable>
+        <subtitle/>
+    </metadata>
+    <spine>
+        <unit designation="" enumeration="" data-uuid="87a46ea01fe4432e8c3bbf6c8e230bed">
+            <title/>
+            <chapter designation="Your First Year at Stony  Brook " enumeration="" thumbnailpath="../img/toc_thumbs/thumbsbured.png" sandbox="false" data-uuid="05e9d01be5c74e8e876ec7e6faa37d33">
+                <title>2014-2015</title>
+                <exhibit path="your_first_year_at_stony_brook1/cover.html" />
+                <exhibit path="your_first_year_at_stony_brook1/title_page.html" />
+                <exhibit path="your_first_year_at_stony_brook1/foreword.html" />
+                <exhibit path="your_first_year_at_stony_brook1/letter_from_assistant_dean_of_the_undergraduate_colleges.html" />
+                <exhibit path="your_first_year_at_stony_brook1/introduction.html" />
+                <exhibit path="your_first_year_at_stony_brook1/acknowledgments.html" />
+            </chapter>
+            <chapter thumbnailpath="../img/toc_thumbs/histrad_thumb.png" designation="Chapter" enumeration="1" sandbox="false" data-uuid="977d3732f4ae48fbad9d7532e6a132d5">
+                <title>Stony Brook: History, Colleges, Traditions and Events</title>
+                <exhibit path="chapter01/ch00_reader_1.html">
+                    <exhibit path="chapter01/video_whats_your_favorite_sbu_tradition.s9ml" /></exhibit>
+                <exhibit path="chapter01/reader_1.html" />
+                <exhibit path="chapter01/reader_2.html" />
+                <exhibit path="chapter01/reader_3.html" />
+                <exhibit path="chapter01/reader_4.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="2" thumbnailpath="../img/toc_thumbs/ugcollege_thumb.png" sandbox="false" data-uuid="59792d37fae1401f9636a4079e025980">
+                <title>The Undergraduate Colleges</title>
+                <exhibit path="chapter02/a_committed_team_of_faculty_and_staff.html">
+                    <exhibit path="chapter02/video_introduction_to_the_undergraduate_colleges.s9ml" /></exhibit>
+                <exhibit path="chapter02/shared_curriculum.html" />
+                <exhibit path="chapter02/undergraduate_colleges.html" />
+                <exhibit path="chapter02/arts_culture_and_humanities_.html" />
+                <exhibit path="chapter02/_global_studies.html" />
+                <exhibit path="chapter02/human_development.html" />
+                <exhibit path="chapter02/information_and_technology_studies.html" />
+                <exhibit path="chapter02/leadership_and_service.html" />
+                <exhibit path="chapter02/science_and_society.html" />
+                <exhibit path="chapter02/firstyear_reading.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="3" thumbnailpath="../img/toc_thumbs/respectthumb.png" sandbox="false" data-uuid="3c4b613ad2154216b2987e02201d3b64">
+                <title>Respect and Civility in Our Campus Community</title>
+                <exhibit path="chapter03/reader_1.html">
+                    <exhibit path="chapter03/video_respect.s9ml" /></exhibit>
+                <exhibit path="chapter03/using_civil_discourse.html" />
+                <exhibit path="chapter03/using_civil_discourse_1.html" />
+                <exhibit path="chapter03/biasfree_communication.html" />
+                <exhibit path="chapter03/civility_in_our_campus_community.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="4" thumbnailpath="../img/toc_thumbs/diversitythumb.png" sandbox="false" data-uuid="f3463c1cffb14fd78668b0556ebcc339">
+                <title>Diversity</title>
+                <exhibit path="chapter04/reader_1.html">
+                    <exhibit path="chapter04/video_diversity.s9ml" /></exhibit>
+                <exhibit path="chapter04/reader_2.html">
+                    <exhibit path="chapter04/slideline_1.s9ml" /></exhibit>
+                <exhibit path="chapter04/your_diversity_education.html" />
+                <exhibit path="chapter04/reader_3.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="5" thumbnailpath="../img/toc_thumbs/communication_thumb.png" sandbox="false" data-uuid="4cf4674e194749c48cda18cdee9381e9">
+                <title>Communication</title>
+                <exhibit path="chapter05/reader_1.html">
+                    <exhibit path="chapter05/video_communication.s9ml" /></exhibit>
+                <exhibit path="chapter05/communication_skills.html" />
+                <exhibit path="chapter05/communication_methods.html" />
+                <exhibit path="chapter05/communication_with_various_constituents.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="6" thumbnailpath="../img/toc_thumbs/academic_suc_thmb.png" sandbox="false" data-uuid="9c1ce80077164cdabb98e47fce6e5ade">
+                <title>Academic Success</title>
+                <exhibit path="chapter06/reader_1.html">
+                    <exhibit path="chapter06/video_academic_success.s9ml" /></exhibit>
+                <exhibit path="chapter06/reader_2.html" />
+                <exhibit path="chapter06/study_habits_assessment.html" />
+                <exhibit path="chapter06/reader_5.html" />
+                <exhibit path="chapter06/reader_6.html" />
+                <exhibit path="chapter06/testtaking.html" />
+                <exhibit path="chapter06/first_generation_students.html" />
+                <exhibit path="chapter06/reader_7.html" />
+                <exhibit path="chapter06/reader_8.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="7" thumbnailpath="../img/toc_thumbs/integrity_thumb.png" sandbox="false" data-uuid="ee6250a200904b3a891e63c450d6545e">
+                <title>Academic Integrity</title>
+                <exhibit path="chapter07/reader_1.html">
+                    <exhibit path="chapter07/video_academic_integrity.s9ml" /></exhibit>
+                <exhibit path="chapter07/academic_integrity.html" />
+                <exhibit path="chapter07/its_more_than_just_plagiarism.html" />
+                <exhibit path="chapter07/how_you_can_protect_yourself.html" />
+                <exhibit path="chapter07/what_happens_if_i_am_accused_of_academic_dishonesty.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="8" thumbnailpath="../img/toc_thumbs/get_involved.png" sandbox="false" data-uuid="d927ead1ad3a4c7ea4474412ef0970f5">
+                <title>Becoming Involved on Campus</title>
+                <exhibit path="chapter08/reader_1.html">
+                    <exhibit path="chapter08/video_becoming_involved_on_campus.s9ml" /></exhibit>
+                <exhibit path="chapter08/six_steps_to_becoming_a_campus_leader.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="9" thumbnailpath="../img/toc_thumbs/career.png" sandbox="false" data-uuid="89e678cf86b444039d50da1f2ce55536">
+                <title>Academic Planning and Career Exploration</title>
+                <exhibit path="chapter09/academic_planning_and_career_exploration.html">
+                    <exhibit path="chapter09/video_academic_planning.s9ml" /></exhibit>
+                <exhibit path="chapter09/career_development_process.html" />
+                <exhibit path="chapter09/understanding_yourself_and_the_selfassessment_process_.html" />
+                <exhibit path="chapter09/reader_1.html" />
+                <exhibit path="chapter09/exercise_2_what_am_i_good_at.html" />
+                <exhibit path="chapter09/reader_2.html" />
+                <exhibit path="chapter09/exercise_4.html" />
+                <exhibit path="chapter09/exercise_5_conduct_career_research.html" />
+                <exhibit path="chapter09/information_gathering.html" />
+                <exhibit path="chapter09/stony_brook_university_career_center_mission.html" />
+                <exhibit path="chapter09/summary.html" />
+                <exhibit path="chapter09/yearly_checklist.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="10" thumbnailpath="../img/toc_thumbs/advising_thumb.png" sandbox="false" data-uuid="c7d75118cea44ddbab7444c78eb805d0">
+                <title>Academic Advising</title>
+                <exhibit path="chapter10/reader_1.html">
+                    <exhibit path="chapter10/video_academic_advising.s9ml" /></exhibit>
+                <exhibit path="chapter10/policies_and_procedures.html" />
+                <exhibit path="chapter10/stony_brook_degree_requirements_academic_graduation_requirements.html" />
+                <exhibit path="chapter10/planning_your_spring_semester_schedule.html" />
+                <exhibit path="chapter10/sample_schedules.html" />
+                <exhibit path="chapter10/how_to_register_for_spring_classes_using_the_solar_system.html" />
+                <exhibit path="chapter10/registration_worksheet.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="11" thumbnailpath="../img/toc_thumbs/reccenhome11.jpg" sandbox="false" data-uuid="9f90bf86070a44c8bdc912948a044fc9">
+                <title>Wellness</title>
+                <exhibit path="chapter11/reader_1.html">
+                    <exhibit path="chapter11/video_wellness.s9ml" /></exhibit>
+                <exhibit path="chapter11/reader_2.html" />
+                <exhibit path="chapter11/reader_3.html" />
+                <exhibit path="chapter11/reader_4.html" />
+                <exhibit path="chapter11/reader_5.html" />
+                <exhibit path="chapter11/reader_6.html" />
+                <exhibit path="chapter11/reader_7.html" />
+                <exhibit path="chapter11/reader_8.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="12" thumbnailpath="../img/toc_thumbs/health_thumb.png" sandbox="false" data-uuid="1b8adca28eac4f5eae0703b01e16d0a3">
+                <title>Prevention and Outreach</title>
+                <exhibit path="chapter12/prevention_and_outreach.html">
+                    <exhibit path="chapter12/video_prevention_and_outreach.s9ml" /></exhibit>
+                <exhibit path="chapter12/_what_is_counseling_and_psychological_services_caps_.html" />
+                <exhibit path="chapter12/alcohol_and_other_drugs_aod.html" />
+                <exhibit path="chapter12/depression.html" />
+                <exhibit path="chapter12/sexual_violence.html" />
+                <exhibit path="chapter12/sleep.html" />
+                <exhibit path="chapter12/smokingnicotine.html" />
+                <exhibit path="chapter12/stress_management.html" />
+                <exhibit path="chapter12/sexual_healthsafer_sex.html" />
+            </chapter>
+            <chapter designation="Chapter" enumeration="13" thumbnailpath="../img/toc_thumbs/libthumb.png" sandbox="false" data-uuid="ccb7566cc27d4e5e8e309397d35032b0">
+                <title>Technology and Library Resources</title>
+                <exhibit path="chapter13/reader_2.html">
+                    <exhibit path="chapter13/video_technology_and_library_resources.s9ml" /></exhibit>
+                <exhibit path="chapter13/technology_resources.html" />
+                <exhibit path="chapter13/reader_16.html" />
+                <exhibit path="chapter13/reader_1.html" />
+                <exhibit path="chapter13/reader_4.html" />
+                <exhibit path="chapter13/reader_5.html" />
+                <exhibit path="chapter13/reader_6.html" />
+                <exhibit path="chapter13/reader_7.html" />
+                <exhibit path="chapter13/reader_8.html" />
+                <exhibit path="chapter13/reader_9.html" />
+                <exhibit path="chapter13/reader_10.html" />
+                <exhibit path="chapter13/reader_11.html" />
+                <exhibit path="chapter13/reader_12.html" />
+                <exhibit path="chapter13/reader_13.html" />
+                <exhibit path="chapter13/reader_14.html" />
+                <exhibit path="chapter13/reader_15.html" />
+            </chapter>
+            <chapter designation="" enumeration="" thumbnailpath="../img/toc_thumbs/map_thumb.png" sandbox="false" data-uuid="fb196c6c117e4586b6f03d51ca36600f">
+                <title>Appendix</title>
+                <exhibit path="appendix12/reader_1.html" />
+                <exhibit path="appendix12/reader_3.html" />
+                <exhibit path="appendix12/reader_5.html" />
+                <exhibit path="appendix12/stony_brook_curriculum_sbs_a_list_of_acronyms.html" />
+            </chapter>
+            <chapter designation="" enumeration="" thumbnailpath="../img/.templates/chapter_thumbnail.png" sandbox="true" data-uuid="3e7afeb3d7f449c0abbc79ad260a2eec">
+                <title>FILE UPLOAD CHAPPY</title>
+                <exhibit path="your_first_year_at_stony_brook1/table_of_contents.html" />
+                <exhibit path="chapter15/pictures__lots_of_pictures..html" />
+                <exhibit path="your_first_year_at_stony_brook1/copyright.html" />
+                <exhibit path="appendix12/reader_2.html" />
+            </chapter>
+        </unit>
+    </spine>
+</toc>

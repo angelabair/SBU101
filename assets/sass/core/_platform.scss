@@ -1,0 +1,82 @@
+// #P latform
+// Defaults included with each book that should not be overriden.
+
+// ## Platform link and highlight color
+$platform-color: #006bb2;
+
+// ## HTML defaults
+// Sets baseline font for resizing
+html {
+	font-family: $font-chronicle;
+	font-size: 19px;
+	-webkit-font-smoothing: antialiased;
+	@include respond-mobile {
+		font-size: 17px;
+	}
+}
+
+// ## Body defaults
+// Sets baseline line-height and margins for iPad and iPhone, critical for platform features
+body {
+	line-height: 1.422em;
+	padding: 0 0 1.5em 0;
+	margin: 0 35px 0 83px;
+	@include respond-mobile {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+// ## Anchor defaults
+
+a {
+	color: $platform-color;
+	text-decoration: none;
+}
+
+.link-block {
+	display: block;
+}
+
+.link-inline {
+	color: $platform-color;
+	text-decoration: none;
+	margin-right: 0.2em;
+	padding: 0.1em 1.2em 0.1em 0;
+	background: url("ui/icon-link-blue.svg") right center no-repeat;
+	background-size: 1em auto;
+	@include force-wrap;
+	&[href*="[chapter"],
+	&[href*="[Chapter"],
+	&[rel="chapter"],
+	&[rel="jump"] {
+		padding-right: 1em;
+		background: url("ui/icon-link-jump-blue.svg") right center no-repeat;
+		background-size: 1em auto;
+	}
+}
+
+dfn {
+	font-weight: 700;
+	font-style: normal;
+	margin-right: 0.2em;
+	padding-right: 1.1em;
+	background: url("ui/icon-definition-blue.svg") right center no-repeat;
+	background-size: 1em auto;
+	> em {
+		font-weight: 400;
+		font-style: normal;
+	}
+}
+
+sup {
+	&[href*="[remark"],
+	&[rel="remark"] {
+		font: 0.7em $font-chronicle;
+		color: $platform-color;
+	}
+	&.remark-large {
+		font-size: inherit;
+		vertical-align: inherit;
+	}
+}

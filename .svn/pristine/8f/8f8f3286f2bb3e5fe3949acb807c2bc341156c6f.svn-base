@@ -1,0 +1,116 @@
+//# List Parenthesis
+// Adds parenthesis around list items. 
+//
+// These provide half or full parenthesis around the list-item.
+
+// - `.list-parenthesis` - Enumeration wrapped in parenthesis.
+// - `.list-half-parenthesis` - Closed parenthesis added after enumeration.
+
+// Note the list-parenthesis-counter generates code so that you can use the `start` attribute with parenthesis, like `<ol start="5">` to start lists at a specific number. Set the number higher if you find you need to use a higher start value on your lists. Note that it generates a good deal of code so avoid setting it too high.
+
+ol {
+	@include list-parenthesis-counter(10);
+	&.list-parenthesis {
+		padding-left: 2.9em;
+		counter-reset: list-parenthesis;
+		> li {
+			list-style-type: none;
+			counter-increment: list-parenthesis;
+			position: relative;
+		}
+		> li:before {
+			position: absolute;
+			left: -2.9em;
+			width: 2.5em;
+			text-align: right;
+			top: auto;
+			content: "(" counter(list-parenthesis) ")";
+		}
+		&.list-upper-alpha > li:before {
+			content: "(" counter(list-parenthesis, upper-alpha) ")";
+		}
+		&.list-lower-alpha > li:before {
+			content: "(" counter(list-parenthesis, lower-alpha) ")";
+		}
+		&.list-upper-roman > li:before {
+			content: "(" counter(list-parenthesis, upper-roman) ")";
+		}
+		&.list-lower-roman > li:before {
+			content: "(" counter(list-parenthesis, lower-roman) ")";
+		}
+	}
+	&.list-parenthesis-half {
+		padding-left: 2.9em;
+		counter-reset: list-parenthesis-half;
+		> li {
+			list-style-type: none;
+			counter-increment: list-parenthesis-half;
+			position: relative;
+		}
+		> li:before {
+			position: absolute;
+			left: -2.9em;
+			width: 2.5em;
+			text-align: right;
+			top: auto;
+			content: counter(list-parenthesis-half) ")";
+		}
+		&.list-upper-alpha > li:before {
+			content: counter(list-parenthesis-half, upper-alpha) ")";
+		}
+		&.list-lower-alpha > li:before {
+			content: counter(list-parenthesis-half, lower-alpha) ")";
+		}
+		&.list-upper-roman > li:before {
+			content: counter(list-parenthesis-half, upper-roman) ")";
+		}
+		&.list-lower-roman > li:before {
+			content: counter(list-parenthesis-half, lower-roman) ")";
+		}
+	}
+	&.list-parenthesis.list-italic:before,
+	&.list-parenthesis-half.list-italic:before {
+		font-style: italic;
+	}
+	&.list-parenthesis.list-bold:before,
+	&.list-parenthesis-half.list-bold:before {
+		font-weight: 700;
+	}
+	@include respond-mobile {
+		list-style-position: inside;
+		padding-left: .5em;
+		> li {
+			margin-top: .8em;
+		}
+		&.list-parenthesis,
+		&.list-parenthesis-half {
+			padding-left: .5em;
+			
+			& > li:before {
+				width: auto;
+				float: left;
+				margin-right: .3em;
+			}
+		}
+	}
+}
+
+//## Custom Counter Values
+// Uncomment, edit and create new selectors as needed to place custom values in ordered list items when the default counter doesn't suffice.
+// 
+// Examples:
+//
+// ol.list-parenthesis > li.value-2a:before {
+//     content: "(2a)";
+// }
+// ol.list-parenthesis-half > li.value-4b:before {
+//     content: "4b)";
+// }
+//
+// Usage in HTML:
+//
+//	<ol class="list-parenthesis">
+//		<li>foo</li>
+//		<li class="value-2a">foo</li>
+//		<li>foo</li>
+//	</ol>

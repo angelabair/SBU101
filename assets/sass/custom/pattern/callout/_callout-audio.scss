@@ -1,0 +1,28 @@
+//# Callout Audio
+.callout-audio {
+	color: #fff;
+	h4 {
+		color: #fff;
+		padding-left: 50px;
+		&:before {
+			content: "";
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			top: 50%;
+			margin-top: -15px;
+			left: 10px;
+			background: url("ui/icon-audio-white.svg") no-repeat;
+			background-size: 100% auto;
+		}
+	}
+	h5 {
+		color: $color-1;
+	}
+	h6 {
+		color: $color-1;
+	}
+	p {
+		color: #666;
+	}
+}

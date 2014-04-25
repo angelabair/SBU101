@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" designation="" enumeration="" data-uuid="04633fb69d2244e981e5aa6c9ed494b3" class="">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../assets/css/main.css" type="text/css" rel="stylesheet" />
+        <title>Networking</title>
+    </head>
+    <body class="card-chapter-reader">
+        <header data-uuid="9a4dd45b0b1048fe9db9a8ecea9a6df5">
+            <h2 data-uuid="4d4461e1ae0e441a953be6c438fcc9b7">Networking</h2>
+        </header>
+        <!--StartFragment-->
+        <h3 data-uuid="020db4dc555e45d394aede846d815353">Wireless</h3>
+        <p data-uuid="11bfd6b7ee604c829fb12c5ba904249b">Wireless (Wi-Fi) is available on main campus by connecting to WolfieNet-Secure with your NetID and NetID password.</p>
+        <p data-uuid="8f4cbcea0066448c8fbb638a37a2697a">For more information on wireless access and locations, please visit:&#160;
+<a href="http://www.stonybrook.edu/it">http://www.stonybrook.edu/it</a>&#160;&gt; Services &gt; Wi-Fi (WolfieNet)</p>
+        <!--EndFragment-->
+        <h3 data-uuid="75ce200158a84614acf07e2657351a7b">Connecting to ResNet</h3>
+        <p data-uuid="84b672bfd72f4ff3b44e087ae3a2a6f4">ResNet brings direct ethernet connectivity to the residence halls and public jacks located on main campus. Student need to be sure that their computers are up-to-date with:</p>
+        <ul data-uuid="2ad69f575ca24b10b7d0af0243ee4aa1">
+            <li data-uuid="abd2f92293314cd783b458043051c9d1">The latest Microsoft Windows Updates</li>
+            <li data-uuid="ebb5bcfc48f54f7389d2acccf61e2747">An approved and up-to-date anti-virus program</li>
+        </ul>
+        <p data-uuid="0c3d8abf8ada40939e21f48f10bc8ecf">For more information, please visit:&#160;
+<a href="http://www.stonybrook.edu/it">http://www.stonybrook.edu/it</a>&#160;&gt; Services &gt; Network (Wired)</p>
+    </body>
+</html>

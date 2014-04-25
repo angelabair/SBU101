@@ -1,0 +1,30 @@
+//## Headers
+//
+
+h1 {
+	font-family: $font-whitney;
+	font-weight: 600;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	color: $color-1;
+	margin-top: 1em;
+}
+
+h2 {
+	font-family: $font-whitney;
+	font-size: 0.89em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 1em 0 0.5em 0;
+	color: $gray1;
+}
+
+h3 {
+	font-family: $font-whitney;
+	font-size: 0.89em;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 1em 0 0.5em 0;
+	color: $green;
+}

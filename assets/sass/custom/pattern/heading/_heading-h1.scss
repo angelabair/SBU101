@@ -1,0 +1,49 @@
+// # h1
+// Default heading styling.
+
+header h1 {
+	//font-family: $font-whitney;
+    //font-family: "TradeGothic Light";
+    font-family: $primary-text-font-test;
+	font-size: 1.8em;
+	font-weight: 600;
+	line-height: 1.2em;
+    //playing with headings here, default is no BG and color at color-1 -Aaron
+	color: white;
+    //background-color: $color-1;
+    
+	margin-top: 1em;
+	&.enumerated {
+		position: relative;
+		padding-top: .5em;
+		border-top: 1px solid $color-1;
+		.num {
+			//font-family: $font-whitney;
+            font-family: $primary-text-font-test;
+			font-size: .55em;
+			font-weight: 500;
+			line-height: normal;
+			text-transform: uppercase;
+			padding: .2em 1em 0 .3em;
+			//background-color: $color-1;
+			color: #fff;
+			display: inline-block;
+			position: absolute;
+			top: -1.45em;
+		}
+	}
+}
+
+// ## h1 not in header
+// For use when h1s are used twice on page.
+
+body > h1 {
+	//font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	font-size: 2em;
+	font-weight: 600;
+	line-height: 1.2em;
+	//playing with headings here, default is no BG and color at color-1 -Aaron
+    color: white;
+    background-color: $color-1;
+}

@@ -1,0 +1,28 @@
+//# Callout Video
+.callout-video {
+	color: #fff;
+	h4 {
+		color: #000000;
+		padding-left: 50px;
+		&:before {
+			content: "";
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			top: 50%;
+			margin-top: -15px;
+			left: 10px;
+			background: url("ui/icon-video-white.svg") no-repeat;
+			background-size: 100% auto;
+		}
+	}
+	h5 {
+		color: $color-1;
+	}
+	h6 {
+		color: $color-1;
+	}
+	p {
+		color: #666;
+	}
+}

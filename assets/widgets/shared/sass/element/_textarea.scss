@@ -1,0 +1,28 @@
+//## Textarea
+//
+
+textarea {
+	@include text-input;
+	min-height: 150px;
+	margin: 0 0 1em 0;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	
+	&.s9-incorrect, &.s9-correct {
+		background-position: 10px 10px; 
+		padding-left: 33px;
+		padding-right: 0;
+	}
+	
+	&.s9-correct {
+		padding-left: 35px;
+	}
+	
+	&.s9-width-half {
+		@include width-half;
+		
+		@include respond-mobile {
+			width: 100%;
+		}
+	}
+}

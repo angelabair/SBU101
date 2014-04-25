@@ -1,0 +1,80 @@
+//# Custom Template: default
+// release 03.01.13
+
+@import "common/color";
+@import "common/mixin";
+@import "common/shared";
+
+//## Inline elements and patterns
+@import "pattern/inline/inline-default";
+@import "pattern/inline/inline-dropcap";
+@import "pattern/inline/inline-fraction";
+
+//## Block elements and patterns
+@import "pattern/block/block-blockquote";
+@import "pattern/block/block-default";
+@import "pattern/block/block-equation-key";
+@import "pattern/block/block-table";
+@import "pattern/block/block-section";
+@import "pattern/block/block-objective";
+
+//## Headings
+@import "pattern/heading/heading-h1";
+@import "pattern/heading/heading-h2";
+@import "pattern/heading/heading-h3";
+@import "pattern/heading/heading-h4";
+@import "pattern/heading/heading-h5";
+@import "pattern/heading/heading-h6";
+
+//## Callouts
+@import "pattern/callout/callout";
+@import "pattern/callout/callout-assessment";
+@import "pattern/callout/callout-basic";
+@import "pattern/callout/callout-key-term";
+@import "pattern/callout/callout-molecule";
+@import "pattern/callout/callout-simple";
+@import "pattern/callout/callout-table";
+@import "pattern/callout/callout-threed";
+@import "pattern/callout/callout-transcript";
+@import "pattern/callout/callout-video";
+@import "pattern/callout/callout-web";
+@import "pattern/callout/callout-custom";
+@import "pattern/callout/callout-audio";
+
+//## Figures
+@import "pattern/figure/figure";
+@import "pattern/figure/figure-badge";
+@import "pattern/figure/figure-caption-position";
+@import "pattern/figure/figure-caption-full";
+@import "pattern/figure/figure-row";
+@import "pattern/figure/figure-truncation";
+@import "pattern/figure/figure-text-image";
+
+//## Lists
+@import "pattern/list/list-key-term-extended";
+@import "pattern/list/list-key-term";
+@import "pattern/list/list-ol-parenthesis";
+@import "pattern/list/list-step";
+@import "pattern/list/list-ol";
+@import "pattern/list/list-ul";
+@import "pattern/list/list-question-fillin";
+
+//## Platform
+@import "pattern/platform/s9-answer";
+@import "pattern/platform/s9-inline-audio";
+@import "pattern/platform/s9-scrollable";
+
+//## Card
+@import "card/card-chapter-appendix";
+@import "card/card-chapter-introduction";
+@import "card/card-chapter-review";
+@import "card/card-chapter-reader";
+@import "card/card-front-matter";
+@import "card/card-index";
+@import "card/card-section-introduction";
+@import "card/card-sub-reader";
+
+//## Helpers
+// Included last to allow for easier overriding.
+@import "pattern/inline/inline-helper";
+@import "pattern/block/block-helper";

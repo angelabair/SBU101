@@ -1,0 +1,40 @@
+// # s9 Scrollable
+
+// Provides a way to scroll content that is too wide for the content window. When the page loads reader.js determines if the content needs to scroll. If so, it will add `.s9-is-scrollable` class to the surrounding div.
+
+// Note: This requires `<div class="s9-scrollable">` to surround the content you want to scroll.
+
+.s9-scrollable {
+	display: block;
+	width: auto;
+	overflow-y: auto;
+	text-align: center;
+	clear: both;
+	figure > img.equation,
+	.equation-key > img.equation {
+		padding: 0 10px;
+		@include box-sizing(content-box);
+	}
+	img {
+		max-width: none;
+	}
+	//For scrollable HTML tables
+	> table {
+		width: 620px;
+		text-align: left;
+	}
+	&.s9-is-scrollable {
+		box-shadow: inset 1px 0px 5px #CCC;
+		margin-top: .7em;
+		margin-bottom: .7em;
+	}
+}
+
+// Fixes a scrolling bug in iOS
+.s9-scrollable table {
+	-webkit-transform: none !important;
+}
+
+body > .s9-scrollable {
+	@include full-bleed-padding;
+}

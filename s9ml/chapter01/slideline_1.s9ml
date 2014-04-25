@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sliderfigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="803eadb418344871a20500d589794c47">
+    <title/>
+    <!-- <caption> must be present, can be empty -->
+    <caption>A Slideline lets the user transition through a sequence of images, using a slider control at the bottom of the frame. The images can appear on the slider at evenly spaced intervals, or at specific values.</caption>
+    <type>illustration</type>
+    <slider discrete="false">
+        <start value="0">Start</start>
+        <step value="0" data-uuid="d7e50b197e0c402094885f87c9da3b31">
+            <img src="../../img/.templates/placeholder_1.png" data-uuid="87c9a8659def4bb3a907f6f3987107e8"/>
+            <!-- <label> optional -->
+            <label>1</label>
+            <!-- <caption> optional -->
+            <caption>Caption for first step</caption> 
+        </step>
+        <step value="1" data-uuid="719fdc97b0f2498a8303871106c74863">
+            <img src="../../img/.templates/placeholder_2.png" data-uuid="d5e2d67c908f4bc5a96cb98bcc2ec852"/>
+            <!-- <label> optional -->
+            <label>2</label>
+            <!-- <caption> optional -->
+            <caption>Caption for second step</caption> 
+        </step>
+        <step value="2" data-uuid="f8ca063dccb34e8e9e146647619f750c">
+            <img src="../../img/.templates/placeholder_3.png" data-uuid="10b52d47e81c4c10848e039a94df717e"/>
+            <!-- <label> optional -->
+            <label>3</label>
+            <!-- <caption> optional -->
+            <caption>Caption for third step</caption> 
+        </step>
+        <end value="2">End</end>
+    </slider>
+</sliderfigure>

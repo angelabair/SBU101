@@ -1,0 +1,125 @@
+// # Badges
+// Adds badges over for enhancements.
+
+.guidedtour,
+.slideshow,
+.slideline,
+.slidedtour,
+.testyourself,
+.hotspot,
+.threed,
+.poptip {
+	position: relative;
+	margin: 1em 0;
+	display: block;
+	figure {
+		margin-top: 0;
+	}
+	img {
+		border: 1px solid #59B0DD;
+		padding: 0.5em;
+		background: none;
+	}
+	&:before {
+		display: block;
+		width: auto;
+		color: #0088CF;
+		font-family: $font-whitney;
+		font-size: .8em;
+		font-weight: 600;
+		letter-spacing: 1px;
+		text-align: right;
+		padding: 6px 3em 4px 16px;
+		border: 1px solid #59B0DD;
+		text-transform: uppercase;
+		border-bottom: none;
+		background-color: #e7f0f7;
+		color: #006bb2;
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		top: 7px;
+		right: 14px;
+		display: block;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width: 25px;
+		height: 25px;
+		@include respond-mobile {
+			top: 6px;
+		}
+	}
+}
+
+.guidedtour {
+	&:before {
+		content: 'Guided Tour';
+	}
+	&:after {
+		background-image: url("ui/icon-guidedtour-blue.svg");
+	}
+}
+
+.slideshow {
+	&:before {
+		content: 'Slideshow';
+	}
+	&:after {
+		background-image: url("ui/icon-slideshow-blue.svg");
+	}
+}
+
+.slideline {
+	&:before {
+		content: 'Slideline';
+	}
+	&:after {
+		background-image: url("ui/icon-slideline-blue.svg");
+	}
+}
+
+.slidedtour {
+	&:before {
+		content: 'Slided Tour';
+	}
+	&:after {
+		background-image: url("ui/icon-slidedtour-blue.svg");
+	}
+}
+
+.testyourself {
+	&:before {
+		content: 'Test Yourself';
+	}
+	&:after {
+		background-image: url("ui/icon-testyourself-blue.svg");
+	}
+}
+
+.hotspot {
+	&:before {
+		content: 'Hotspot';
+	}
+	&:after {
+		background-image: url("ui/icon-hotspot-blue.svg");
+	}
+}
+
+.threed {
+	&:before {
+		content: '3D';
+	}
+	&:after {
+		background-image: url("ui/icon-threed-blue.svg");
+	}
+}
+
+.poptip {
+	&:before {
+		content: 'Poptips';
+	}
+	&:after {
+		background-image: url("ui/icon-poptip-blue.svg");
+	}
+}

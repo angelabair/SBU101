@@ -1,0 +1,25 @@
+// # s9 Audio Button
+// Styling for inline audio player button. Change this only if absolutely necessary.
+.s9-audio-button-custom {
+	margin-top: 23px;
+	display: inline-block;
+	padding: 6px 10px 6px 40px;
+	color: #fff;
+	text-decoration: none;
+	text-indent: 0;
+	text-align: left;
+	text-transform: none;
+	font-family: $font-whitney;
+	font-size: .8em;
+	font-weight: 600;
+	line-height: 1.1em;
+	box-shadow: 0 0 3px #999;
+	@include unselectable;
+	text-shadow: #0e507b 0px -1px;
+	border-radius: 5px;
+	background: $platform-color url(ui/icon-audio-player-white.svg) no-repeat 10px center;
+	background-size: 20% auto;
+	&.s9-active {
+		opacity: .5;
+	}
+}

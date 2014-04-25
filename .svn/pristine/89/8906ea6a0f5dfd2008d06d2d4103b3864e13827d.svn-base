@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<guidedtour xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="4211b163b5004723946397962db32187">
+    <title/>
+    <img src="../../img/.templates/placeholder.png" data-uuid="8e26a21599994b56aba8bd800476952c"/>
+    <caption>Guided Tours provide self-paced navigation across an image of a complex process, diagram, or concept. Additional information appears in a poptip at each step.</caption>
+    <type>illustration</type>
+    <steps>
+        <!--First step-->
+        <step data-uuid="c60e9fb2f8cd4f848ee3b8897a580b20">
+            <frame x="331" y="66" width="304" height="213"/>
+            <annotation data-uuid="4cc2835db9bd4b339ceca68ea8c4baad">
+                <orientation>taildown</orientation>
+                <location x="481" y="160"/>
+                <snippet><text>Here we find the first step...</text></snippet>
+            </annotation>
+        </step>
+        <!--Second step-->
+        <step data-uuid="6da25877aa704d26b960e9fa1b0d5b45">
+            <frame x="140" y="326" width="329" height="196"/>
+            <annotation data-uuid="c790e0f470b64dc19dfa7850ed93bd64">
+                <orientation>taildown</orientation>
+                <location x="299" y="408"/>
+                <snippet><text>...the second step...</text></snippet>
+            </annotation>
+        </step>
+        <!--Third step-->
+        <step data-uuid="083b569220264489a9a8d5a738f7285e">
+            <frame x="581" y="471" width="248" height="240"/>
+            <annotation data-uuid="d3159f31684a4d2e95904bb78a5d119f">
+                <orientation>tailup</orientation>
+                <location x="701" y="611"/>
+                <snippet><text>...and the third step.</text></snippet>
+            </annotation>
+        </step>
+        </steps>
+</guidedtour>

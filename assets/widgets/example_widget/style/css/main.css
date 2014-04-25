@@ -1,0 +1,866 @@
+@font-face {
+  font-family: 'Chronicle';
+  src: local("Chronicle Text G4 Roman"), local("ChronicleTextG4-Roman");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: local("Chronicle Text G4 Italic"), local("ChronicleTextG4-Italic");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: local("Chronicle Text G4 Bold"), local("ChronicleTextG4-Bold");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Chronicle';
+  src: local("Chronicle Text G4 Bold Italic"), local("ChronicleTextG4-BoldItalic");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: local("Whitney-Book");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: local("Whitney-BookItalic");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: local("Whitney-Medium"), local("WhitneyMedium-Regular");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: local("Whitney-MediumItalic"), local("WhitneyMedium-Italic");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: local("Whitney-Semibold"), local("WhitneySemibold-Regular");
+  font-weight: 600;
+}
+
+/* line 40, ../../../shared/sass/core/_mixin.scss */
+.width-half {
+  width: 45%;
+  float: right;
+  clear: right;
+  margin: 0.5em 0 1em 1em;
+  max-width: 325px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 40, ../../../shared/sass/core/_mixin.scss */
+  .width-half {
+    max-width: 100%;
+    width: auto;
+    float: none;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* line 18, ../../../shared/sass/core/_reset.scss */
+html, body, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 28, ../../../shared/sass/core/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 35, ../../../shared/sass/core/_reset.scss */
+html {
+  font-family: "Whitney A", "Whitney B", Whitney, Verdana, Helvetica, sans;
+  font-size: 19px;
+  -webkit-font-smoothing: antialiased;
+}
+@media only screen and (max-width: 600px) {
+  /* line 35, ../../../shared/sass/core/_reset.scss */
+  html {
+    font-size: 17px;
+  }
+}
+
+/* line 47, ../../../shared/sass/core/_reset.scss */
+body {
+  line-height: 1.422em;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 53, ../../../shared/sass/core/_reset.scss */
+p {
+  margin-bottom: 1em;
+}
+
+/* line 57, ../../../shared/sass/core/_reset.scss */
+input[type="text"], textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+/* line 63, ../../../shared/sass/core/_reset.scss */
+label {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 67, ../../../shared/sass/core/_reset.scss */
+input[type="checkbox"], input[type="radio"], input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* line 71, ../../../shared/sass/core/_reset.scss */
+textarea {
+  resize: none;
+}
+
+/* line 4, ../../../shared/sass/element/_button.scss */
+div#s9-buttons {
+  width: 100%;
+  float: left;
+}
+
+/* line 9, ../../../shared/sass/element/_button.scss */
+button {
+  border: none;
+  font-size: .632em;
+  padding: 8px 12px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+  -webkit-tap-highlight-color: transparent;
+  letter-spacing: 0.04em;
+  float: left;
+  margin-right: 5px;
+  background: #0f9aba;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #16abce), color-stop(100%, #0f9aba));
+  background: -webkit-linear-gradient(#16abce, #0f9aba);
+  background: -moz-linear-gradient(#16abce, #0f9aba);
+  background: -o-linear-gradient(#16abce, #0f9aba);
+  background: -ms-linear-gradient(#16abce, #0f9aba);
+  background: linear-gradient(#16abce, #0f9aba);
+}
+/* line 27, ../../../shared/sass/element/_button.scss */
+button:first-of-type {
+  margin-left: 0;
+}
+/* line 31, ../../../shared/sass/element/_button.scss */
+button:last-of-type {
+  margin-right: 0;
+}
+/* line 35, ../../../shared/sass/element/_button.scss */
+button:active {
+  background: #16abce;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0f9aba), color-stop(100%, #16abce));
+  background: -webkit-linear-gradient(#0f9aba, #16abce);
+  background: -moz-linear-gradient(#0f9aba, #16abce);
+  background: -o-linear-gradient(#0f9aba, #16abce);
+  background: -ms-linear-gradient(#0f9aba, #16abce);
+  background: linear-gradient(#0f9aba, #16abce);
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.25);
+}
+/* line 41, ../../../shared/sass/element/_button.scss */
+button.s9-toggle-on {
+  background: #137891;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #137891), color-stop(100%, #4293a7));
+  background: -webkit-linear-gradient(#137891, #4293a7);
+  background: -moz-linear-gradient(#137891, #4293a7);
+  background: -o-linear-gradient(#137891, #4293a7);
+  background: -ms-linear-gradient(#137891, #4293a7);
+  background: linear-gradient(#137891, #4293a7);
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.25);
+}
+/* line 46, ../../../shared/sass/element/_button.scss */
+button.s9-toggle-on:active {
+  background: #4293a7;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #035e6d), color-stop(100%, #4293a7));
+  background: -webkit-linear-gradient(#035e6d, #4293a7);
+  background: -moz-linear-gradient(#035e6d, #4293a7);
+  background: -o-linear-gradient(#035e6d, #4293a7);
+  background: -ms-linear-gradient(#035e6d, #4293a7);
+  background: linear-gradient(#035e6d, #4293a7);
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+/* line 54, ../../../shared/sass/element/_button.scss */
+.s9-reset {
+  float: right;
+  background: #666666;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #666666), color-stop(100%, #4d4d4d));
+  background: -webkit-linear-gradient(#666666, #4d4d4d);
+  background: -moz-linear-gradient(#666666, #4d4d4d);
+  background: -o-linear-gradient(#666666, #4d4d4d);
+  background: -ms-linear-gradient(#666666, #4d4d4d);
+  background: linear-gradient(#666666, #4d4d4d);
+}
+
+/* line 60, ../../../shared/sass/element/_button.scss */
+.s9-reset:active {
+  background: #d8d8d8;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4d4d4d), color-stop(100%, #666666));
+  background: -webkit-linear-gradient(#4d4d4d, #666666);
+  background: -moz-linear-gradient(#4d4d4d, #666666);
+  background: -o-linear-gradient(#4d4d4d, #666666);
+  background: -ms-linear-gradient(#4d4d4d, #666666);
+  background: linear-gradient(#4d4d4d, #666666);
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.55);
+}
+
+/* line 4, ../../../shared/sass/element/_code.scss */
+code {
+  font-family: Courier, "Courier New", monospace;
+  font-size: .9em;
+  font-style: normal;
+  line-height: 1em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 4, ../../../shared/sass/element/_code.scss */
+  code {
+    font-size: .85em;
+  }
+}
+
+/* line 6, ../../../shared/sass/element/_input.scss */
+input[type="checkbox"], input[type="radio"] {
+  -webkit-appearance: none;
+  display: none;
+  cursor: pointer;
+}
+/* line 11, ../../../shared/sass/element/_input.scss */
+input[type="checkbox"] + label, input[type="radio"] + label {
+  position: relative;
+  line-height: 1.422em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 11, ../../../shared/sass/element/_input.scss */
+  input[type="checkbox"] + label, input[type="radio"] + label {
+    margin-left: .55em;
+  }
+}
+/* line 20, ../../../shared/sass/element/_input.scss */
+input[type="checkbox"] + label:before, input[type="radio"] + label:before {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  height: 12px;
+  width: 12px;
+  content: '';
+  position: absolute;
+  left: -1.2em;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
+  background-color: #F2F2F2;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #e6e6e6));
+  background: -webkit-linear-gradient(#f2f2f2, #e6e6e6);
+  background: -moz-linear-gradient(#f2f2f2, #e6e6e6);
+  background: -o-linear-gradient(#f2f2f2, #e6e6e6);
+  background: -ms-linear-gradient(#f2f2f2, #e6e6e6);
+  background: linear-gradient(#f2f2f2, #e6e6e6);
+}
+@media only screen and (max-width: 600px) {
+  /* line 20, ../../../shared/sass/element/_input.scss */
+  input[type="checkbox"] + label:before, input[type="radio"] + label:before {
+    left: -17px;
+  }
+}
+/* line 37, ../../../shared/sass/element/_input.scss */
+input[type="checkbox"]:active + label:before, input[type="radio"]:active + label:before {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d8d8d8), color-stop(100%, #f2f2f2));
+  background: -webkit-linear-gradient(#d8d8d8, #f2f2f2);
+  background: -moz-linear-gradient(#d8d8d8, #f2f2f2);
+  background: -o-linear-gradient(#d8d8d8, #f2f2f2);
+  background: -ms-linear-gradient(#d8d8d8, #f2f2f2);
+  background: linear-gradient(#d8d8d8, #f2f2f2);
+}
+/* line 41, ../../../shared/sass/element/_input.scss */
+input[type="checkbox"]:checked + label:after, input[type="radio"]:checked + label:after {
+  position: absolute;
+  left: -22px;
+  top: -5px;
+  margin-top: 1px;
+  content: '';
+  width: 19px;
+  height: 25px;
+  background-image: url("../s9-img/icon-checkmark-blue.svg");
+  background-size: 17px auto;
+  background-position: 0 -1px;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  /* line 41, ../../../shared/sass/element/_input.scss */
+  input[type="checkbox"]:checked + label:after, input[type="radio"]:checked + label:after {
+    width: 21px;
+    height: 19px;
+    background-position: 5px 0;
+  }
+}
+
+/* line 66, ../../../shared/sass/element/_input.scss */
+input[type="radio"] + label:before {
+  border-radius: 50px;
+}
+/* line 70, ../../../shared/sass/element/_input.scss */
+input[type="radio"]:checked + label:after {
+  position: absolute;
+  left: -19px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  top: 3px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #16abce), color-stop(100%, #0f9aba));
+  background: -webkit-linear-gradient(#16abce, #0f9aba);
+  background: -moz-linear-gradient(#16abce, #0f9aba);
+  background: -o-linear-gradient(#16abce, #0f9aba);
+  background: -ms-linear-gradient(#16abce, #0f9aba);
+  background: linear-gradient(#16abce, #0f9aba);
+}
+@media only screen and (max-width: 600px) {
+  /* line 70, ../../../shared/sass/element/_input.scss */
+  input[type="radio"]:checked + label:after {
+    left: -14px;
+    top: 4px;
+  }
+}
+
+/* line 89, ../../../shared/sass/element/_input.scss */
+li input[type="checkbox"], li input[type="radio"], li input[type="radio"] {
+  margin-left: -1.8em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 89, ../../../shared/sass/element/_input.scss */
+  li input[type="checkbox"], li input[type="radio"], li input[type="radio"] {
+    margin-left: -0.6em;
+  }
+}
+
+/* line 99, ../../../shared/sass/element/_input.scss */
+input[type="text"] {
+  font-family: inherit;
+  font-size: 1em;
+  text-transform: none;
+  letter-spacing: inherit;
+  border-radius: 2px;
+  border: 2px solid #cccccc;
+  padding: .5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  color: #777777;
+  width: 100%;
+  margin: 0;
+}
+/* line 88, ../../../shared/sass/core/_mixin.scss */
+input[type="text"]:focus {
+  border-color: #0f9aba;
+}
+/* line 92, ../../../shared/sass/core/_mixin.scss */
+input[type="text"].s9-show-answer {
+  color: #c6c6c6;
+  border-color: #c6c6c6;
+}
+/* line 97, ../../../shared/sass/core/_mixin.scss */
+input[type="text"].s9-incorrect {
+  color: #cb272a;
+  border-color: #cb272a;
+  background: url(../s9-img/icon-incorrect.svg) no-repeat right center;
+  background-size: 22px auto;
+  padding-right: 30px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 97, ../../../shared/sass/core/_mixin.scss */
+  input[type="text"].s9-incorrect {
+    background-size: 19px auto;
+    padding-right: 26px;
+  }
+}
+/* line 110, ../../../shared/sass/core/_mixin.scss */
+input[type="text"].s9-correct {
+  color: #63a83b;
+  border-color: #63a83b;
+  background: url(../s9-img/icon-correct.svg) no-repeat right center;
+  background-size: 25px auto;
+  padding-right: 32px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 110, ../../../shared/sass/core/_mixin.scss */
+  input[type="text"].s9-correct {
+    background-size: 21px auto;
+    padding-right: 25px;
+  }
+}
+/* line 123, ../../../shared/sass/core/_mixin.scss */
+input[type="text"].s9-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 62, ../../../shared/sass/core/_mixin.scss */
+input[type="text"]:placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 63, ../../../shared/sass/core/_mixin.scss */
+input[type="text"]::-webkit-input-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 64, ../../../shared/sass/core/_mixin.scss */
+input[type="text"]:-moz-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 65, ../../../shared/sass/core/_mixin.scss */
+input[type="text"]::-moz-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 66, ../../../shared/sass/core/_mixin.scss */
+input[type="text"]:-ms-input-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 62, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a input[type="text"]:placeholder {
+  color: transparent;
+}
+/* line 63, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a input[type="text"]::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 64, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a input[type="text"]:-moz-placeholder {
+  color: transparent;
+}
+/* line 65, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a input[type="text"]::-moz-placeholder {
+  color: transparent;
+}
+/* line 66, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a input[type="text"]:-ms-input-placeholder {
+  color: transparent;
+}
+/* line 102, ../../../shared/sass/element/_input.scss */
+.s9-list-two-col > li input[type="text"], .s9-list-two-col > li:first-child p + input[type="text"], .s9-list-two-col > li input[type="text"] {
+  width: 100%;
+}
+/* line 106, ../../../shared/sass/element/_input.scss */
+.s9-list-two-col > li p + input[type="text"] {
+  margin-top: -0.8em;
+}
+@media only screen and (max-width: 600px) {
+  /* line 111, ../../../shared/sass/element/_input.scss */
+  .s9-list-two-col > li p + input[type="text"], .s9-list-two-col > li:first-child p + input[type="text"] {
+    width: 100%;
+  }
+  /* line 115, ../../../shared/sass/element/_input.scss */
+  .s9-list-two-col > li input[type="text"] {
+    width: 92%;
+    margin-left: 0;
+    float: right;
+    margin-top: -0.4em;
+  }
+  /* line 122, ../../../shared/sass/element/_input.scss */
+  ul.s9-list-two-col > li input[type="text"] {
+    width: 95%;
+  }
+}
+/* line 128, ../../../shared/sass/element/_input.scss */
+.s9-inline-input-text input[type="text"] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: inline;
+  width: 200px;
+  margin-right: 3px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 4px;
+}
+
+/* line 142, ../../../shared/sass/element/_input.scss */
+.s9-inline-input-text {
+  line-height: 2.5em;
+}
+
+/* line 4, ../../../shared/sass/element/_textarea.scss */
+textarea {
+  font-family: inherit;
+  font-size: 1em;
+  text-transform: none;
+  letter-spacing: inherit;
+  border-radius: 2px;
+  border: 2px solid #cccccc;
+  padding: .5em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  color: #777777;
+  width: 100%;
+  margin: 0;
+  min-height: 150px;
+  margin: 0 0 1em 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+/* line 88, ../../../shared/sass/core/_mixin.scss */
+textarea:focus {
+  border-color: #0f9aba;
+}
+/* line 92, ../../../shared/sass/core/_mixin.scss */
+textarea.s9-show-answer {
+  color: #c6c6c6;
+  border-color: #c6c6c6;
+}
+/* line 97, ../../../shared/sass/core/_mixin.scss */
+textarea.s9-incorrect {
+  color: #cb272a;
+  border-color: #cb272a;
+  background: url(../s9-img/icon-incorrect.svg) no-repeat right center;
+  background-size: 22px auto;
+  padding-right: 30px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 97, ../../../shared/sass/core/_mixin.scss */
+  textarea.s9-incorrect {
+    background-size: 19px auto;
+    padding-right: 26px;
+  }
+}
+/* line 110, ../../../shared/sass/core/_mixin.scss */
+textarea.s9-correct {
+  color: #63a83b;
+  border-color: #63a83b;
+  background: url(../s9-img/icon-correct.svg) no-repeat right center;
+  background-size: 25px auto;
+  padding-right: 32px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 110, ../../../shared/sass/core/_mixin.scss */
+  textarea.s9-correct {
+    background-size: 21px auto;
+    padding-right: 25px;
+  }
+}
+/* line 123, ../../../shared/sass/core/_mixin.scss */
+textarea.s9-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 62, ../../../shared/sass/core/_mixin.scss */
+textarea:placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 63, ../../../shared/sass/core/_mixin.scss */
+textarea::-webkit-input-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 64, ../../../shared/sass/core/_mixin.scss */
+textarea:-moz-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 65, ../../../shared/sass/core/_mixin.scss */
+textarea::-moz-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 66, ../../../shared/sass/core/_mixin.scss */
+textarea:-ms-input-placeholder {
+  font-style: italic;
+  color: #d8d8d8;
+}
+/* line 62, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a textarea:placeholder {
+  color: transparent;
+}
+/* line 63, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a textarea::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 64, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a textarea:-moz-placeholder {
+  color: transparent;
+}
+/* line 65, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a textarea::-moz-placeholder {
+  color: transparent;
+}
+/* line 66, ../../../shared/sass/core/_mixin.scss */
+.s9-c_a textarea:-ms-input-placeholder {
+  color: transparent;
+}
+/* line 11, ../../../shared/sass/element/_textarea.scss */
+textarea.s9-incorrect, textarea.s9-correct {
+  background-position: 10px 10px;
+  padding-left: 33px;
+  padding-right: 0;
+}
+/* line 17, ../../../shared/sass/element/_textarea.scss */
+textarea.s9-correct {
+  padding-left: 35px;
+}
+/* line 21, ../../../shared/sass/element/_textarea.scss */
+textarea.s9-width-half {
+  width: 45%;
+  float: right;
+  clear: right;
+  margin: 0.5em 0 1em 1em;
+  max-width: 325px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 21, ../../../shared/sass/element/_textarea.scss */
+  textarea.s9-width-half {
+    max-width: 100%;
+    width: auto;
+    float: none;
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 21, ../../../shared/sass/element/_textarea.scss */
+  textarea.s9-width-half {
+    width: 100%;
+  }
+}
+
+/* line 4, ../../../shared/sass/pattern/_headers.scss */
+h1 {
+  font-family: "Whitney A", "Whitney B", Whitney, Verdana, Helvetica, sans;
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  color: #0f9aba;
+  margin-top: 1em;
+}
+
+/* line 13, ../../../shared/sass/pattern/_headers.scss */
+h2 {
+  font-family: "Whitney A", "Whitney B", Whitney, Verdana, Helvetica, sans;
+  font-size: 0.89em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1em 0 0.5em 0;
+  color: #666666;
+}
+
+/* line 23, ../../../shared/sass/pattern/_headers.scss */
+h3 {
+  font-family: "Whitney A", "Whitney B", Whitney, Verdana, Helvetica, sans;
+  font-size: 0.89em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 1em 0 0.5em 0;
+  color: #63a83b;
+}
+
+/* line 6, ../../../shared/sass/pattern/_lists.scss */
+ol {
+  padding-left: 1.5em;
+  margin: 0 0 1em 0;
+}
+/* line 10, ../../../shared/sass/pattern/_lists.scss */
+ol ol, ol ul {
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 6, ../../../shared/sass/pattern/_lists.scss */
+  ol {
+    list-style-position: inside;
+    padding-left: .5em;
+  }
+  /* line 18, ../../../shared/sass/pattern/_lists.scss */
+  body > ol {
+    padding-left: 0;
+  }
+  /* line 22, ../../../shared/sass/pattern/_lists.scss */
+  ol li {
+    margin-bottom: .8em;
+  }
+}
+
+/* line 29, ../../../shared/sass/pattern/_lists.scss */
+ul {
+  padding-left: 1em;
+  margin: 0 0 1em 0;
+}
+/* line 33, ../../../shared/sass/pattern/_lists.scss */
+ul ul, ul ol {
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 29, ../../../shared/sass/pattern/_lists.scss */
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+  /* line 41, ../../../shared/sass/pattern/_lists.scss */
+  ul li {
+    margin-top: .8em;
+  }
+}
+
+/* line 49, ../../../shared/sass/pattern/_lists.scss */
+ol > li, ul > li {
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+/* line 55, ../../../shared/sass/pattern/_lists.scss */
+.s9-list-input-checkbox, .s9-list-input-radio {
+  list-style-type: none;
+  padding-left: 1.2em;
+}
+/* line 59, ../../../shared/sass/pattern/_lists.scss */
+.s9-list-input-checkbox > li, .s9-list-input-radio > li {
+  margin-bottom: 0.3em;
+}
+/* line 62, ../../../shared/sass/pattern/_lists.scss */
+.s9-list-input-checkbox > li:last-child, .s9-list-input-radio > li:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 55, ../../../shared/sass/pattern/_lists.scss */
+  .s9-list-input-checkbox, .s9-list-input-radio {
+    padding-left: .5em;
+  }
+}
+
+/* line 72, ../../../shared/sass/pattern/_lists.scss */
+.list-no-style {
+  list-style-type: none;
+}
+/* line 75, ../../../shared/sass/pattern/_lists.scss */
+.list-no-style > li {
+  margin-bottom: 0.3em;
+}
+/* line 78, ../../../shared/sass/pattern/_lists.scss */
+.list-no-style > li:last-child {
+  margin-bottom: 0;
+}
+
+/* line 84, ../../../shared/sass/pattern/_lists.scss */
+.s9-list-two-col {
+  display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+  /* line 84, ../../../shared/sass/pattern/_lists.scss */
+  .s9-list-two-col {
+    list-style-position: inside;
+    padding-left: .5em;
+  }
+  /* line 91, ../../../shared/sass/pattern/_lists.scss */
+  body > .s9-list-two-col {
+    padding-left: 0;
+  }
+}
+/* line 96, ../../../shared/sass/pattern/_lists.scss */
+.s9-list-two-col > li {
+  width: 46%;
+  float: left;
+}
+/* line 100, ../../../shared/sass/pattern/_lists.scss */
+.s9-list-two-col > li:nth-child(odd) {
+  margin-right: 8%;
+}
+/* line 104, ../../../shared/sass/pattern/_lists.scss */
+.s9-list-two-col > li:nth-child(even) {
+  margin-right: 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 96, ../../../shared/sass/pattern/_lists.scss */
+  .s9-list-two-col > li {
+    width: 100%;
+    margin-top: .8em;
+  }
+  /* line 112, ../../../shared/sass/pattern/_lists.scss */
+  .s9-list-two-col > li:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+
+/* line 3, ../sass/_custom.scss */
+.example-widget #ingredientList {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+}
+/* line 8, ../sass/_custom.scss */
+.example-widget #ingredientList li .qty {
+  width: 40px;
+  text-align: right;
+  display: inline-block;
+  margin-right: .5em;
+}
+/* line 15, ../sass/_custom.scss */
+.example-widget #ingredientList li .name {
+  display: inline-block;
+}

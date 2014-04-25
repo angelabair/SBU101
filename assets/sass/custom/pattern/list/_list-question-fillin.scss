@@ -1,0 +1,16 @@
+// # Question Fillin
+// Used for when you need blank lines, emulating a fill-in-the-blanks type question.
+.question-fillin {
+	margin: 1em 0;
+	p {
+		margin-top: 1em;
+	}
+	hr {
+		border: none;
+		background: #000;
+		height: 1px;
+		margin: 28px 0 10px;
+		display: inline-block;
+		width: 100%;
+	}
+}

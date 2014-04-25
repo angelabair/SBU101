@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" designation="" enumeration="" data-uuid="0094cbda3ecd4c24a6227ae6ecebad20">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../assets/css/main.css" type="text/css" rel="stylesheet" />
+        <title>Creative Expressions</title>
+    </head>
+    <body class="card-chapter-reader">
+       
+        <h2 data-uuid="fdb1368bca8e49dc9d26c77cdb47d887">Second Level Heading (h2)</h2>
+        <h3 data-uuid="c9777ab0f91842838062657a32f22409">Third Level Heading (h3)</h3>
+        <p data-uuid="15e0605bc85745c4bc251ebed2ece660">Reader cards contain the primary text content for a title. These files are rendered as HTML with text and images, styled with CSS. Switch to <i>Edit mode</i> to make text edits or add or remove patterns from this card.</p>
+        <a href="">
+	        <figure subtitle="" data-uuid="63fb8055b2fd4ae68dc633f5ad58859d">
+	            <img src="../../img/.templates/stub-landscape.png" alt="" data-uuid="86321d62d4d04c3eb57ec0ef3fbd984b" />
+	            <figcaption>
+	                <span class="figure-number">
+	                    <span class="figure-designation">Figure</span>
+	                    <span class="figure-enumeration">1a</span>
+	                </span>
+	                <span class="caption-title">Caption title.</span>
+	                <span class="caption-body">Caption body.</span>
+	                <span class="caption-citation">Caption citation.</span>
+	            </figcaption>
+	        </figure>
+        </a>
+    </body>
+</html>

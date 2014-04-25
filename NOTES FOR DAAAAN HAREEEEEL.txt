@@ -1,0 +1,27 @@
+As of right now, the PDF is NOT ready for deployment. Welp.
+
+########
+#ISSUES#
+########
+These are the current issues in no particular order:
+1) Font is small
+2) Pictures are too big.
+3) Each chapter's heading is poorly formatted and misaligned
+
+
+#########################
+#HOW TO FIX THE PICTURES#
+#########################
+
+1) Find the picture in the HTML page.
+2) Right click > Inspect Element
+3) Scroll down and find its width and height
+4) Find the image's corresponging <img> in the HTML file.
+5) Add the following property: style="width:x;height:y"
+	x = the picture's width
+	y = the picture's height
+6) Go to the image's corresponging <figcaption> tag.
+7) Add the following property: style="width:x"
+	x = the picture's width
+8) Go to the image's corresponding <figure> tag.
+9) Add the following property: style="float:right"

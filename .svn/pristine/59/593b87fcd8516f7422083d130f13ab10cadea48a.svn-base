@@ -1,0 +1,39 @@
+// ## Chapter Objective
+// Default custom styling for .chapter-objective. please remove and reset to customize
+.sidenote.chapter-objective {
+	//font-family: $font-whitney;
+    font-family: $primary-text-font-test;
+	font-weight: 400;
+	background-color: transparent;
+	border-top: 1px solid $color-1;
+	border-bottom: 1px solid $color-1;
+	padding: 0 .5em .5em 0;
+	margin-bottom: 2em;
+	h4 {
+		//font-family: $font-whitney;
+        font-family: $primary-text-font-test;
+		font-size: .85em;
+		font-weight: 500;
+		line-height: normal;
+		text-transform: uppercase;
+		padding: .4em .5em .3em;
+		display: inline-block;
+		width: auto;
+		color: #fff;
+		background-color: $color-1;
+		margin-bottom: 1em;
+	}
+	.objective-intro {
+		font-family: $font-chronicle;
+		font-style: italic;
+		color: $color-1;
+	}
+	ol > li {
+		font-weight: 600;
+		color: $color-2;
+		margin-bottom: .5em;
+		> em {
+			font-weight: 400;
+		}
+	}
+}

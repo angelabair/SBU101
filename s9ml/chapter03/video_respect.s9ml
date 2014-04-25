@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="214f1a378a6544699c3b1308abe31a08">
+    <title>Take the Community Pledge! </title>
+    <img src="../../img/video_thumb/job409_respectyoutube_sharing.png" data-uuid="2cabaec9c73d4d75aeb8d9be3e340c35"/>
+    <video src="[videostream:job409_respectyoutube_sharing]" width="1280" height="720" data-uuid="80f1443f4fe2423d819a68a37e426e29"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption/>
+</videofigure>

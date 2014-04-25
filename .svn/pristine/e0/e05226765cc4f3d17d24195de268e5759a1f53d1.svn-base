@@ -1,0 +1,27 @@
+//# Callout Transcript
+.callout-transcript {
+	position: relative;
+	padding-bottom: 9px;
+	margin-top: -0.7em;
+	h5 {
+		color: $color-1;
+		margin-bottom: 0;
+		padding: 0 60px 0 0;
+		font-size: 1.0em;
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 22px;
+			border-radius: 3px;
+			background: black url("ui/icon-arrow-right-white.svg") 50% 50% no-repeat;
+			background-size: 75% auto;
+		}
+	}
+	p {
+		padding: 5px 60px 0 15px;
+	}
+}

@@ -1,0 +1,67 @@
+// # Index Page
+// Custom styling for index pages. Edit as needed.
+
+body.card-index {
+	ol, ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		ol {
+			padding-left: 1em;
+		}
+	}
+	
+	//below is used for the pattern index only (sample chapter)
+
+		section.patterns {
+			
+			div.column-1, div.column-2 {
+			float: left;
+			width: 48%;
+			@include respond-mobile {
+				float: none;
+				width: 100%;
+			}
+			}
+			
+			div.column-2 {
+			float: right;
+			}
+			
+			ul li {
+				p {
+					line-height: 1.3em;
+					font-size: .9em;
+					> a {
+						background-image: none;
+						padding: 0;
+					}
+				}
+				ul {
+					margin-left: .5em;
+				li p {
+					font-size: .8em;
+					color: $gray;
+				}
+			}
+		 }
+		h5 {
+		 //font: normal .9em $font-whitney;
+         font: normal .9em $primary-text-font-test;
+		 font-weight: 500;
+		 display: block;
+		 color: $gray;
+		 text-indent: .5em;
+		 & + ul {
+		 margin-left: .5em;
+		 margin-top: -.5em;
+		 }
+		 }
+		 h4 + h5 {
+		 margin-top: -.5em;
+		 }
+		 ul + h5 {
+		 margin-top: .75em;
+		 }
+	}
+}

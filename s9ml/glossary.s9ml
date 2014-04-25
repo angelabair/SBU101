@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glossary xmlns="http://www.standardnine.com/s9ml" designation="Glossary" data-uuid="1ddf61d4bd1849ad84242aa3cc008c40">
+	<glossentry data-uuid="308fde9ec6274b69a4f5591856262f96">
+		<term key="glossary term">Glossary term</term>
+		<definition>
+			<title>Glossary term</title>
+			<text>Text of definition.</text>
+		</definition>
+	</glossentry>
+</glossary>

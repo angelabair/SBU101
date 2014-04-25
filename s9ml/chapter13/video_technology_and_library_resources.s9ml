@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="31973d4885be4975b055ae37cd21ccb9">
+    <title>Technology and Library Resources</title>
+    <img src="../../img/video_thumb/job409_techlibraryyoutube_sharing.png" data-uuid="cd915de2007449c7bb00d1240b47a815"/>
+    <video src="[videostream:job409_techlibraryyoutube_sharing]" width="1280" height="720" data-uuid="c76440bff5844d18ae721c9135420d27"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption/>
+</videofigure>

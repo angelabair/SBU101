@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Widget Example</title>
+		<link rel="stylesheet" href="style/css/main.css"> <!-- widget specific styles [required] -->
+		<script type="text/javascript" src="../shared/js/jquery-1.8.3.min.js"></script> <!-- use shared version of jquery and s9.js -->
+		<script type="text/javascript" src="../shared/js/s9.js"></script>
+		<script type="text/javascript" src="js/main.js"></script> <!-- required to load this last to avoid conflicts -->
+	</head>
+	<body class="example-widget">
+		<!-- Widget HTML Here -->
+
+		<h2>Example Recipe</h2>
+		<ul id="ingredientList">
+			<li><span class="qty">3</span><span class="name">Cups Flour</span></li>
+			<!-- <li><span class="qty">2</span><span class="name">Eggs</span></li> -->
+			<!-- <li><span class="qty">1</span><span class="name">Tbsp Sugar</span></li> -->
+		</ul>
+
+		<div id="buttons">
+			<button id="half" class="btn">&frac12; yield</button>
+			<button id="double" class="btn">2&times; yield</button>
+		</div>
+	</body>
+</html>

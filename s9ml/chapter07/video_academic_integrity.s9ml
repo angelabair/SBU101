@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="0042a698f43d4001aa0968e47216f73c">
+    <title>What is Academic Integrity?</title>
+    <img src="../../img/video_thumb/job_409_update_academic_integrity_2013.png" data-uuid="62937db9a62c46c09e201ac4377bbd3f"/>
+    <video src="[videostream:job_409_update_academic_integrity_2013]" width="1280" height="720" data-uuid="eb9e2df1515e4e73b9c029ff3366a92a"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption/>
+</videofigure>

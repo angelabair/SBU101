@@ -1,0 +1,67 @@
+// # Key Terms
+// Uses floated list items to create the holders for the data.
+//
+// `.no-link` is used for page numbers that do not have links in Key Terms Cloud Extended.
+//
+// See [Key Term](/pattern-library/core-patterns/lists/key-term/) for example HMTL.
+
+.key-term {
+	padding-left: 0;
+	overflow: hidden;
+	li {
+		float: left;
+		display: table;
+		list-style: none;
+		margin: 0 0.6em 0.6em 0;
+		border: 1px solid #A9ABAE;
+		border-right: none;
+		background: #fff;
+		position: relative;
+		> dfn, > .term-only, > .nolink {
+			font-family: $font-whitney;
+			font-size: 1em;
+			font-weight: 600;
+			line-height: 1.4em;
+			font-style: normal;
+			color: #000;
+			background: none;
+			display: table-cell;
+			padding: 0.5em;
+			border-right: 1px solid #A9ABAE;
+			height: 1.5em;
+			&:after {
+				width: 1em;
+				height: 1em;
+				display: inline-block;
+				padding-left: .2em;
+				content: "";
+				background: url("ui/icon-definition-blue.svg") 100% .2em no-repeat;
+				background-size: .9em auto;
+				top: 2px;
+				position: relative;
+			}
+		}
+		> .term-only, > .nolink {
+			&:after {
+				content: none;
+			}
+		}
+	}
+	a {
+		font-family: $font-whitney;
+		font-weight: 600;
+		color: black;
+		padding: 0.1em 1.1em 0.1em .5em;
+		margin-right: .5em;
+		background: url("ui/icon-link-blue.svg") 100% .2em no-repeat;
+		background-size: .9em auto;
+		&:after {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			border-right: 1px solid #A9ABAE;
+		}
+	}
+}

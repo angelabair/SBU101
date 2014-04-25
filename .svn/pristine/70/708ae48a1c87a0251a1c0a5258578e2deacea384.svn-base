@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="e378913ee47d4859ad76e7cb4fec40cc">
+    <title>The Career Center </title>
+    <img src="../../img/video_thumb/job409_academic_planningyoutube_sharing.png" data-uuid="68b44c895dab4d70a524079f6b564c91"/>
+    <video src="[videostream:job409_academic_planningyoutube_sharing]" width="1280" height="720" data-uuid="a2c12fd0e45743a7917cc3fefde633e1"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption/>
+</videofigure>

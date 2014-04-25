@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" designation="" enumeration="" data-uuid="9d126c08f21b4932a240f35d72daa10f">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../assets/css/main.css" type="text/css" rel="stylesheet" />
+        <title></title>
+    </head>
+    <body class="card-chapter-reader">
+        <header data-uuid="ab721a1de9ef459cbfab8d6f2b1ff7da">
+            <h1 data-uuid="502d7d6e4f044ccca73c4dca279b79b4">Title of Reader Card (h1)</h1>
+        </header>
+        <h2 data-uuid="6687f3b71b5d4e84bc9d7fabb3fdbb9b">Second Level Heading (h2)</h2>
+        <h3 data-uuid="c52844018f59447c83deeede0e33b3c7">Third Level Heading (h3)</h3>
+        <p data-uuid="64796d310272446b8f906a8e15973a6e">Reader cards contain the primary text content for a title. These files are rendered as HTML with text and images, styled with CSS. Switch to <i>Edit mode</i> to make text edits or add or remove patterns from this card.</p>
+        <a href="">
+	        <figure subtitle="" data-uuid="da7d875387e849729a85ec3774de2b41">
+	            <img src="../../img/.templates/stub-landscape.png" alt="" data-uuid="08f4926ffa704b4d973b733dd9fae98d" />
+	            <figcaption>
+	                <span class="figure-number">
+	                    <span class="figure-designation">Figure</span>
+	                    <span class="figure-enumeration">1a</span>
+	                </span>
+	                <span class="caption-title">Caption title.</span>
+	                <span class="caption-body">Caption body.</span>
+	                <span class="caption-citation">Caption citation.</span>
+	            </figcaption>
+	        </figure>
+        </a>
+    </body>
+</html>

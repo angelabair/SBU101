@@ -1,0 +1,74 @@
+//# Callout Molecule
+.callout-molecule {
+	position: relative;
+	padding-left: 0;
+	color: #fff;
+	h4 {
+		background: $color-1;
+		color: #fff;
+		margin: -4px -12px 15px 4px;
+		padding-left: 50px;
+		&:before {
+			content: "";
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			top: 50%;
+			margin-top: -15px;
+			left: 10px;
+			background: url("ui/icon-molecule-white.svg") no-repeat;
+			background-size: 100% auto;
+		}
+	}
+	h5 {
+		color: $color-1;
+		margin-bottom: 0;
+		padding: 10px 60px 10px 15px;
+	}
+	p {
+		padding: 5px 60px 0 15px;
+	}
+}
+
+.callout-molecule.stack {
+	padding: 1px 0 0 0;
+	h4 {
+		padding-left: 15px;
+		margin: 2px 3px 10px;
+		&:after, &:before {
+			display: none;
+		}
+	}
+	h5, > a {
+		display: block;
+		font-size: 1.2em;
+		padding: 15px 30px 15px 55px;
+		margin-bottom: 0;
+		&:before {
+			width: 35px;
+			height: 35px;
+			margin-top: -15px;
+			content: "";
+			position: absolute;
+			left: 15px;
+			top: 50%;
+			z-index: 1;
+			background: url("ui/icon-molecule-black.svg") no-repeat;
+			background-size: 87% auto;
+		}
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 3px;
+			bottom: 3px;
+			right: 3px;
+			width: 22px;
+			background-image: url("ui/icon-arrow-right-gray.svg");
+			background-color: transparent;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 75% auto;
+		}
+	}
+}

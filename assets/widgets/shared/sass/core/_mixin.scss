@@ -1,0 +1,166 @@
+// # Mixins
+
+
+// ## Media Queries
+// Providing queries to respond to different widths.
+
+// Responds to mobile devices, generally the iPhone
+@mixin respond-mobile {
+  @media only screen and (max-width: 600px) {
+    @content;
+  }
+}
+
+// Width Half
+// ----------
+// Used to float figures and other elements to the right at roughly half of the width of the page.
+//
+// Can be used as a class `.width-half` on figures, sidenotes, as needed, where it's not practical to target individual elements in the CSS.
+//
+// `max-width: 325px;` is for reflow: prevents embedded figures from becoming too large on desktop web.
+//
+// Note: Reflowing to the mobile view makes them run the full width of the page.
+
+@mixin width-half {
+    width: 45%;
+    float: right;
+    clear: right;
+    margin: 0.5em 0 1em 1em;
+    max-width: 325px;
+    @include respond-mobile {
+        max-width: 100%;
+        width: auto;
+        float: none;
+        clear: both;
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+
+.width-half {
+    @include width-half;
+}
+
+// Unselectable
+// ----------
+// Used only in rare situations where turning off the ability to select text is desired. Do not use this unless directed to do so.
+
+@mixin unselectable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+// Placeholder
+// ----------
+// Placeholder Text mixin (Webkit, FF 4-18, FF 19+, IE 10+)
+
+@mixin placeholder {
+	&:placeholder {	@content }
+	&::-webkit-input-placeholder { @content }
+	&:-moz-placeholder { @content }
+	&::-moz-placeholder { @content }
+	&:-ms-input-placeholder { @content }
+}
+
+// Text-Input
+// ----------
+// Input Text & Textarea common styles
+
+@mixin text-input {
+	font-family: inherit;
+	font-size: 1em;
+	text-transform: none;
+	letter-spacing: inherit;
+	border-radius: 2px;
+	border: 2px solid $gray3;
+	padding: .5em;
+	@include box-sizing(border-box);
+	vertical-align: middle;
+	color: $gray2;
+	width: 100%;
+	margin: 0;
+
+	
+	&:focus {
+		border-color: $color-1;
+	}
+	
+	&.s9-show-answer {
+		color: $color-hint;
+		border-color: $color-hint;
+	}
+	
+	&.s9-incorrect {
+		color: $color-incorrect;
+		border-color: $color-incorrect;	
+		background: url(../s9-img/icon-incorrect.svg) no-repeat right center;
+		background-size: 22px auto;
+		padding-right: 30px;
+		
+		@include respond-mobile {
+			background-size: 19px auto;
+			padding-right: 26px;
+		}
+	}
+	
+	&.s9-correct {
+		color: $color-correct;
+		border-color: $color-correct;	
+		background: url(../s9-img/icon-correct.svg) no-repeat right center;
+		background-size: 25px auto;
+		padding-right: 32px;
+		
+		@include respond-mobile {
+			background-size: 21px auto;
+			padding-right: 25px;
+		}
+	}
+	
+	&.s9-placeholder {
+		font-style: italic; 
+		color: $gray4;
+	}
+	
+	@include placeholder {
+		font-style: italic; 
+		color: $gray4;
+	}
+	
+	.s9-c_a & {
+		@include placeholder {
+			color:transparent;
+		}
+	}
+}
+
+
+// Icon Color Checkbox
+// ----------
+// Determines which color checkmark to use for checkboxes based on $theme-color
+
+@mixin icon-color-checkbox($theme-color) {
+	@if $theme-color == 'blue' {
+		background-image: url('../s9-img/icon-checkmark-blue.svg');
+	}
+	
+	@if $theme-color == 'green' {
+		background-image: url('../s9-img/icon-checkmark-green.svg');
+	}
+	
+	@if $theme-color == 'orange' {
+		background-image: url('../s9-img/icon-checkmark-orange.svg');
+	}
+	
+	@if $theme-color == 'yellow' {
+		background-image: url('../s9-img/icon-checkmark-yellow.svg');
+	}
+	
+	@if $theme-color == 'violet' {
+		background-image: url('../s9-img/icon-checkmark-violet.svg');
+	}
+}
+

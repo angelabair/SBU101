@@ -1,0 +1,152 @@
+// # Front Matter
+// Default styling for front matter cards. Edit as needed.
+
+body.card-front-matter {
+    font-family: $font-whitney;
+    padding: 2em 0 0;
+    header {
+		background: none;
+	    margin: 0;
+	    padding: 0;
+	}
+	header h1 {
+    	//font-family: $font-whitney;
+        background-image:url('chapter15/wolfietest.jpg');
+        font-family: $primary-text-font-test;
+		font-size: 1.6em;
+		font-weight: 500;
+		line-height: 1.2em;
+	}
+	.cover-image {
+		width: 100%;
+		margin-bottom: 0;
+	}
+	section {
+		margin: 0;
+		padding: 0;
+		background: none;
+		border: none;
+	}
+	
+	//  STYLING FOR TITLE PAGE:
+	&.card-titlepage {
+		@include full-bleed-padding;
+		font-family: $font-whitney;
+		margin: 0 0 0 -83px;
+		padding: 0 0 0 83px;
+		font-weight: 400;
+		background-color: none;
+		header {		
+			margin-top: 0;
+			padding-top: 0;
+		}
+		header h1 {
+			font-size: 3.5em;
+			font-weight: 600;
+			line-height: 1.2em;
+			color: $platform-color;
+			margin-top: 50px;
+			margin-left: 50px;
+		}
+		header h4 {
+    		//font-family: $font-whitney;
+            font-family: $primary-text-font-test;
+			font-size: 1.2em;
+			font-weight: 500;
+			line-height: normal;
+			margin: 0.5em 1em 0 0;
+			padding: 0;
+            text-align: right;
+		}
+		figure {
+			margin: 0;
+		}
+		section.credits {
+			    margin: 3em 0;
+			line-height: 1.1em;
+			p {
+				font-size: 1.1em;
+				padding-top: 15px;
+			}
+			p em {
+				padding: 1em 0;
+				clear: both;
+				display: block;
+			}
+			p.author-name {
+				color: $platform-color;
+				font-size: 1.25em;
+				text-indent: 0;
+			}
+			p.org-name {
+				padding: 10px 0;
+				text-indent: 0;
+			}
+		}
+		// LIST OF CITIES
+		ul.cities {
+			text-align: center;
+			margin-top: 100px;
+			padding-left: 0;
+		}
+		ul.cities li {
+			//font-family: $font-whitney;
+            font-family: $primary-text-font-test;
+			font-size: 1em;
+			font-weight: 400;
+			line-height: 11.5em;
+			display: inline-block;
+			padding-right: 10px;
+		}
+		//PUBLISHER LOGO - position as needed
+		div.publisher-logo img {
+			margin: 2em auto;
+			width: auto;
+			max-width: 220px;
+			text-align: center;
+		}
+	}
+	//  STYLING FOR COPYRIGHT PAGE:
+	&.card-copyright {
+		font-family: $font-chronicle;
+		font-size: 1.1em;
+		font-weight: 400;
+		line-height: normal;
+		section.isbn, p.reprint-num {
+			letter-spacing: 2px;
+			text-indent: 0;
+			margin: 0;
+			padding: 0.5em 0;
+		}
+		section.credits {
+			margin: 1em 0;
+		}
+		& > p {
+			padding: 0.5em 0;
+			text-indent: 0;
+		}
+		h3 {
+			font-size: 0.9em;
+			padding: 1em 0 0.2em;
+			text-transform: uppercase;
+		}
+		//PUBLISHER LOGO - position as needed
+		div.publisher-logo img {
+			margin: 1em auto;
+			width: auto;
+			display: inline-block;
+			clear: both;
+		}
+	}
+	//  STYLING FOR DEDICATION PAGE:
+	&.card-front-matter.card-dedication {
+		margin: 0!important;
+		section {
+			margin: 5em 0;
+			p {
+				text-align: center;
+				line-height: 1.5em;
+			}
+		}
+	}
+}

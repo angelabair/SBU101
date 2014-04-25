@@ -1,0 +1,83 @@
+// # Block Element Default
+// General defaults for block level elements.
+
+//## Paragraph Indentation
+//
+// This provides two paragraph styling options. Use only one.
+
+// - p-indent provides the default styling, indented paragraphs
+// - p-no-indent sets spacing after each paragraph
+
+body, section, li {
+	@include p-indent;
+	@include p-no-indent;
+}
+
+//## Header
+// Default header styling
+header {
+	padding: 40px 0 20px;
+	margin-bottom: 15px;
+	h1, h2 {
+		.enumeration {
+			margin-right: .2em;
+		}
+	}
+	h2 {
+		color: $color-2;
+	}
+}
+
+//## General Defaults
+aside {
+	margin: 1em 0;
+}
+
+cite {
+	font-size: 0.8em;
+	margin-top: 1em;
+	line-height: 1.4em;
+	color: #666;
+	font-style: normal;
+	display: block;
+}
+
+code {
+	font-family: Courier, "Courier New", monospace;
+	font-size: .75em;
+	font-style: normal;
+	line-height: 1;
+}
+
+hgroup {
+	h2, h3, h4, h5, h6 {
+		margin: 0;
+	}
+}
+
+img {
+	display: block;
+	&.image-inline {
+		display: inline;
+		vertical-align: text-bottom;
+		max-width: 100%;
+	}
+}
+
+pre {
+	margin: 1em 0;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+}
+
+p.excerpt{  
+padding: 40px 0 20px;  
+margin-top:5px;  
+margin-bottom:5px;  
+margin-left:20px;  
+margin-right:20px;  
+
+}
+
+.centre { text-indent: 0; text-align: center; }

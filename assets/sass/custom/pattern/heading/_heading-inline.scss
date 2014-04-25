@@ -1,0 +1,30 @@
+// # Inline Header
+//
+// ==========================
+// WARNING: `display: run-in` is poorly supported. It does not work at all as of Firefox 16 and is buggy in both Chrome 22 and Internet Explorer 9. It is currently supported in the Inkling App but future changes to the rendering engine could cause problems. Use this only if necessary and with a full understanding of the issues it can cause.
+// ==========================
+//
+// When applied to a heading it should always be immediately followed by the paragraph that it runs into.
+// 
+// IMPORTANT: When using inline-header do not place any elements, floated or otherwise — sections, figures, callouts — in between the heading and the paragraph in the HTML.
+//
+// `& + p` targets the paragraph after a run-in.
+
+// `&:after` fixes a bug where the last word of a run-in would wrap even when there was space for it. This creates an extra space and that fixes the wrapping.
+
+// `.inline-header` can be used a class on `<h*>` if needed, otherwise use the mixin.
+
+@mixin inline-heading {
+	display: run-in;
+	margin-right: 0.5em;
+	& + p {
+		margin-top: 1em;
+	}
+	&:after {
+		content: " ";
+	}
+}
+
+.inline-header {
+	@include inline-heading;
+}

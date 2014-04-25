@@ -1,0 +1,63 @@
+// # Text Images
+// Used for tables, charts and equations. Anything that has text
+// that needs to be readable by the end user and should not
+// grow larger than it needs to.
+//
+// **All text images will have a class name entered into /assets/css/text-image.css**
+
+// This is default behavior for all text images (except for equations).
+.text-image {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// ## Block Image Equations
+
+figure > img.equation,
+.equation-key > img.equation {
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+// ## Inline Image Equations
+
+p > img.equation,
+li > img.equation,
+figcaption img.equation {
+	height: auto;
+	display: inline-block;
+	vertical-align: -0.1em;
+}
+
+// ## HTML Equations 
+// Both inline and block.
+div.equation {
+	text-align: center;
+	margin: 1em auto;
+	display: inline-block;
+	padding: 0 10px;
+	white-space: nowrap;
+}
+
+span.equation {
+	white-space: nowrap;
+	@include respond-mobile {
+		white-space: normal;
+	}
+}
+
+// Equations example:
+// .ch21_eq_527-01 { width: 25.96em; }
+
+// Tables example:
+// .ch21_table_526-01  { width: 27em; }
+
+// Placeholder Images
+.text_figure_placeholder {width: 23.33em;}
+.table_figure_placeholder {width: 32.51em;}
+.block_equation_placeholder {width: 41.43em;}
+.inline_equation_525_placeholder {width: 13.46em;}
+.inline_equation_placeholder {	width: 19.30em;}
+.table_image_placeholder {width: 38em;}

@@ -1,0 +1,70 @@
+//# Figure
+// Default styling for all figures.
+
+figure {
+	position: relative;
+	font-family: $font-whitney;
+	font-size: 1em;
+	font-weight: 400;
+	margin: 1em 0;
+	clear: both;
+	> a {
+		display: block;
+	}
+	> img,
+	> a > img {
+		margin-bottom: .7em;
+		@include box-sizing(border-box);
+		width: 100%;
+	}
+	&.width-full {
+		width: auto;
+	}
+	figcaption {
+		font-weight: 400;
+		line-height: 1.45em;
+		.figure-number {
+			font-weight: 600;
+			display: inline-block;
+			white-space: normal;
+			color: #000;
+		}
+		.caption-title {
+			font-weight: 600;
+			color: #000;
+		}
+		.caption-body {
+			color: #000;
+		}
+		.caption-citation {
+			color: #777;
+		}
+		& + img {
+			margin-bottom: 1.5em;
+			margin-top: .8em;
+		}
+		// This adds one space after each span, regardless of spacing in the code.
+		.figure-designation:after,
+		.caption-title:after,
+		.caption-body:after {
+			content:" ";
+		}
+	}
+}
+
+// ## Figcaption overrides
+// When various links are present.
+a figure figcaption .figure-number,
+figure figcaption a.figure-number {
+	margin-right: .3em;
+	padding-right: 1.2em;
+	background: url("ui/icon-link-blue.svg") right center no-repeat;
+	background-size: 1em auto;
+	color: $platform-color;
+}
+
+// ## Figure Margin
+// Removes bottom margin of figure when nested inside a link.
+a > figure {
+	margin-bottom: 0;
+}

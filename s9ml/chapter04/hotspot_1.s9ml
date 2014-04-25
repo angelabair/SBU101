@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspotfigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="c1106078c0b749ff839b82d00dc26555">
+    <title/>
+  	<!-- <caption> must be present, can be empty -->
+  	<caption>Hotspot figures let users zoom into an image to provide a closer look or more detail.</caption>
+    <imagefigure data-uuid="a2de8380167446a098a720661233714e">
+        <img src="../../img/.templates/placeholder_hotspot.png" data-uuid="a07f7c01991a48c4aab891d787f47e3a"/>
+        <hotspots>
+            <hotspot data-uuid="67fdba66eea8443389be85b272c59cdb">
+                <frame x="643" y="158" width="281" height="218"/>
+                <imagefigure data-uuid="54459db0ff5f4bdbbd3d44dc5b345e8c">
+                    <img src="../../img/.templates/placeholder.png" data-uuid="138a436293e14556aa31bb412bd6054f"/>
+                    <!-- <caption> optional -->
+                    <caption>A detail view</caption>
+                </imagefigure>
+            </hotspot>
+        </hotspots>
+    </imagefigure>
+</hotspotfigure>

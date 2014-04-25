@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" designation="" enumeration="" data-uuid="cff9a998b46e41f3b43ce33b66acef9f">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../assets/css/main.css" type="text/css" rel="stylesheet" />
+        <title>Ask a Librarian</title>
+    </head>
+    <body class="card-chapter-reader">
+        <header data-uuid="6cffef60356b47ac8af85b68b39b62ba">
+            <h2 data-uuid="44f9e85d510445a7b2950b1c30f5dadd">Ask a Librarian</h2>
+        </header>
+        <p data-uuid="eb2df82ecab54cdc885b3e57088be7ac">If you are having trouble getting started on an assignment or finding what you need:</p>
+        <ul data-uuid="8377daf84fb6449bb0aeb8ce79d9ed60">
+            <li data-uuid="f05e6ccb8c4f4f4890ca8b52ae9f4c0f">Send an IM using the widget on the library website.</li>
+            <li data-uuid="17e0e40349cb451bb95f359194cdc455">Call 631-632-7110.</li>
+            <li data-uuid="5c290a9b11474bb4934b4dddd1065dd3">Stop by the Reference Desk in the Central Reading Room to talk to a librarian face-to-face.</li>
+            <li data-uuid="e4a3b689847649adbb893b8ef6080a33">Use the “Ask Us” widget to get an answer to your question.</li>
+            <li data-uuid="d179017dba2f4c098c309500c9f524f7">Use your smartphone and the library QR code:</li>
+        </ul>
+        <a href="https://www.inkling.com/habitat" class="width-center">
+            <figure data-uuid="2e1e9d98580e4b1683825f185e383a0c"> <img src="../../img/chapter13/qrlib.png" data-uuid="ef84db0167f44074b64d837ba4c4c6c4" />
+            </figure>
+        </a>
+        <h3 data-uuid="a38b53fc96794d798cb98eabcbd53a61">Workshops &amp; Tours</h3>
+        <p data-uuid="daac067c344b46e5ab3ed22d746870b2">
+            <!--StartFragment-->The library holds free workshops each semester to help students get ready for college level research.&#160;Previous workshops have included the following topics:&#160;</p>
+        <p data-uuid="c0acf6cc394f4b8191c93c652effddf8">
+            <!--StartFragment-->
+        </p>
+        <ul data-uuid="1207dcb11d394a6a9ee0d44ed6098d81">
+            <li data-uuid="65792450e7f04561bb61170637bd5f40">Research Skills</li>
+            <li data-uuid="6470c0816756458abb07610513848e15">EndNote</li>
+            <li data-uuid="78bf1c09f031454e8b569df19a1bab1c">Zotero</li>
+            <li data-uuid="d39c0331bbfe4564b9658689dda6834b">Citations/Plagiarism</li>
+            <li data-uuid="b3806d68e5b942e3bec5068ff0d48a2f">Extreme Google</li>
+            <li data-uuid="d99dd77e118f4e59b744fd5932871c57">Film Research</li>
+        </ul>
+        <p data-uuid="52f164b4c9a9484eb546004c93901c52">Check the website or the Facebook page for details.</p>
+        <p data-uuid="20771cea582447b8be85e9923194c186">The library also offers tours of the building at the beginning of each semester. Tours run about 1/2 hour.&#160;<br />
+        </p>
+        <p data-uuid="79fb81f3f4ce43ff8725c032d1e61eb9">For more information on upcoming library events, check:</p>
+        <ul data-uuid="8ab5d26e268844ed9568a756842f9959">
+            <li data-uuid="1ccfad19db75480e8b1a54113a2ceb9c">The library news section on the Libraries’ homepage.</li>
+            <li data-uuid="7b266d114ed748b19af5c920a5cd4fcc">The Stony Brook University Libraries page on Facebook.</li>
+            <li data-uuid="beab283187834cbaba408204e7c78de8">The Library tab on Blackboard.</li>
+        </ul>
+    </body>
+</html>

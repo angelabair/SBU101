@@ -1,0 +1,22 @@
+// #Card Chapter Section
+// Custom styling for chapter section cards.
+
+body.card-chapter-reader {
+    header {
+        div.title-info {
+                background-image:url('./../img/chapter15/ch1_historyandtrad.png');   
+            
+        }
+        
+    }
+    //playing with various blockquote colorations here: eventual goal is probably to make it more like the website -Aaron
+    blockquote {
+      background: $color-5;
+      //font-family: $font-whitney;
+      font-family: $primary-text-font-test;
+      p {
+          //color: #000066;
+          color: black;
+      }
+      }
+    }

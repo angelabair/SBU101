@@ -1,0 +1,19 @@
+// # Template: Default
+// release 03.01.13
+
+// ## Compass includes
+// We rely on these for CSS3 and some typography mixins
+@import "compass/css3";
+@import "compass/typography";
+
+// ## Core
+// Partials for setting default mixins, colors and fonts.
+@import "core/reset";
+@import "core/font-ios";
+@import "core/font-web";
+@import "core/mixin";
+@import "core/platform";
+
+// ## Import Custom
+// All custom styling.
+@import "custom/custom";

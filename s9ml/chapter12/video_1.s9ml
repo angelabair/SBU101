@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="8cc84efc71ab4893bb221e166a632c47">
+    <title/>
+    <img src="../../img/.templates/video_poster.png" data-uuid="c980a66594bd489fb00d70842cd4c192"/>
+    <video src="[default:video]" width="600" height="400" data-uuid="4cfa164547614aa58c0ea0ceb258d9da"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption>Videos on Inkling are streamed from the web.</caption>
+</videofigure>

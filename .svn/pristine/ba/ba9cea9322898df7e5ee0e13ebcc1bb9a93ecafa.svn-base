@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" designation="" enumeration="" data-uuid="9436491e268c495184aae27067feaf22" class="">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../assets/css/main.css" type="text/css" rel="stylesheet" />
+        <title>Technology and Library Resources</title>
+    </head>
+    <body class="card-chapter-reader">
+        <header data-uuid="957f23a039d74dae9c7ad23b0284f415">
+            <div class="title-info" data-uuid="b05f3b27640f428fbe8612f3b93be043">
+                <div class="chapter-number" data-uuid="24e27b6fba554163892ea6d1f48c7f79">13</div>
+                <h1 data-uuid="380ed41ce6b84c2db2798c40c5bc50d4">Technology and Library Resources</h1>
+            </div>
+        </header>
+        <blockquote data-uuid="98ae5e77c37f49ec9769dc54a29b050a">
+            <p data-uuid="f2ac3473957545648604a4f619240092">
+                <q>Take advantage of all the free workshops you can. They often have a lot of helpful information on many different programs and software.</q>
+            </p>
+            <p class="credit" data-uuid="8e10043af66649f09c8f088e72972b0d"> <span class="credit-title">— PAUL</span>, <span class="credit-info">Stony Brook University</span>
+            </p>
+        </blockquote>
+        <p data-uuid="3d83af9cd67e4a0b9f169e7f37ca985f">Outlined in this chapter are the extensive technology and library services available to you.</p>
+        <a href="video_technology_and_library_resources.s9ml" class="width-full">
+            <figure data-uuid="86f4cc738cb74f819d74f1ba1e32bcf8"> <img src="../../img/chapter13/ch13video.png" data-uuid="67a2f55733f740aeb97a6c3f0bb70c22" />
+            </figure>
+        </a>
+        <p data-uuid="cbdc31d5d63b46cca2cbaccfaacf36be">The Division of Information Technology (DoIT) provides student computer support through its several departments. Teaching, Learning + Technology (TLT) provides public computing lab access to all students, printing services, instructional technology support, and free technology workshops to all students. Client Support provides technical computer support for residential and commuter students who need help with their personal machines through either the Walk-In Center (30 minutes or less) or Drop-Off Service. For more information, please visit&#160;<a href="http://it.stonybrook.edu/services/client-support-service-center">the Client Support Service Center</a>.</p>
+        <p data-uuid="18563e6ab4cb485f8b2f09be819702d5">The East and West Campus University Libraries at Stony Brook contain nearly two million bound volumes and four million publications in microformat. The libraries provide hundreds of databases and state-of-the-art information services, serving students, faculty, and the surrounding community.</p>
+    </body>
+</html>

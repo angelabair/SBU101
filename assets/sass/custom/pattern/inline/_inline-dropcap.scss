@@ -1,0 +1,23 @@
+//# Dropcap
+// Use with <p class="dropcap"><span class="dropcap-letter">T</span>he car is green.</p>
+//
+// The `overflow:hidden;` fixes an issue with multiple float:right; elements preceding the paragraph.
+
+.dropcap {
+	overflow: hidden;
+}
+//changed a touch, old settings commented out -Aaron
+.dropcap-letter {
+	//background: $color-1;
+    background: $color-5;
+	float: left;
+	//font-family: $font-chronicle;
+    font-family: $primary-text-font-test;
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 1;
+	padding: .20em .35em;
+	margin: 0 .25em 0 0;
+	//color: #fff;
+    color: $color-1;
+}

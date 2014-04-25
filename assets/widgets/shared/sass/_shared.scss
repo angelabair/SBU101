@@ -1,0 +1,20 @@
+// ## Shared styles
+
+// ## Core styles
+@import "core/font-ios";
+@import "core/font-web";
+@import "core/mixin";
+@import "core/reset";
+
+// ## Common styles
+@import "common/color";
+
+// ## Element styles
+@import "element/button";
+@import "element/code";
+@import "element/input";
+@import "element/textarea";
+
+// ## Pattern styles
+@import "pattern/headers";
+@import "pattern/lists";

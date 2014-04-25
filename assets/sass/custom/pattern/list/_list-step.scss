@@ -1,0 +1,79 @@
+// # List Step
+// Used for dialogs, step lists, and other types of ordered lists that use labels.
+
+// We're using `display: table;` so that we don't have to specify a width for the items on the left. This allows the text to expand as needed and keeps each instance of the step list consistent.
+
+// When in mobile view the label on the left moves above.
+
+// See [Step](/pattern-library/core-patterns/lists/step/) for an HTML example.
+
+.list-step {
+	display: table;
+	list-style: none;
+	padding-left: 0;
+	@include respond-max-width(600px) {
+		display: block;
+	}
+
+	> li {
+		display: table-row;
+		@include respond-max-width(600px) {
+			display: block;
+		}
+
+		.step-title {
+			white-space: nowrap;
+			font-weight: 700;
+			padding-right: 1em;
+			@include respond-max-width(600px) {
+				padding-top: .5em;
+			}
+		}
+		.step-info {
+			padding-bottom: .3em;
+		}
+		.step-title, .step-info {
+			display: table-cell;
+			@include respond-max-width(600px) {
+				display: block;
+			}
+		}
+	}
+	&.list-step-scrollable {
+		display: block;
+		li, .step-title, .step-info {
+			display: block;
+		}
+	}
+}
+
+.list-step-centered {
+	@extend .list-step;
+	margin-left: 1em;
+	margin-right: 1em;
+	@include respond-max-width(600px) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	li {
+		@include respond-max-width(600px) {
+			.step-info {
+				margin-left: 1.5em;
+			}
+		}
+
+		.step-title {
+			text-align: right;
+			padding-right: .3em;
+			@include respond-max-width(600px) {
+				text-align: left;
+			}
+		}
+	}
+}
+
+.list-step .list-step,
+.list-step-centered .list-step-centered {
+	margin-top: .4em;
+}

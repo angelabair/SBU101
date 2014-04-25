@@ -1,0 +1,41 @@
+// # s9 Answer
+// Used by reader.js to control the show/hide values.
+
+// Editing display properties can result in unwanted behavior.
+
+.s9-answer {
+	margin-bottom: 1em;
+	color: $platform-color;
+	font-weight: 400;
+	.s9-show-answer-value,
+	.s9-hide-answer-value {
+		display: none;
+	}
+}
+
+.s9-answer-toggle {
+	color: $platform-color;
+	display: inline-block;
+	min-height: 1.6em;
+	font-family: $font-whitney;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.5em;
+	margin: 0.3em 0;
+	padding-left: 1.2em;
+	background: url("ui/icon-arrow-show-blue.svg") no-repeat 0 .2em;
+	background-size: 1em auto;
+	&.s9-active {
+		background-image: url("ui/icon-arrow-hide-blue.svg");
+	}
+}
+
+//## s9ml-answer
+//`.s9ml-answer` is for Phase 1 of Core ingestion. Do not use unless instructed to do so. This class will be changed from `.s9ml-answer` to `.s9-answer` as part of Phase 2 and will then work as expected.
+
+.s9ml-answer {
+	margin: 1em 0;
+	padding-left: 1.5em;
+	background: url("ui/icon-arrow-show-blue.svg") no-repeat 0 50%;
+	background-size: 1em auto;
+}

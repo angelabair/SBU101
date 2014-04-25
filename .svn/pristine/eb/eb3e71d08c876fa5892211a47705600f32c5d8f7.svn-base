@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<videofigure xmlns="http://www.standardnine.com/s9ml" designation="" enumeration="" data-uuid="8c0972fb454b445ab7133ca66bc428dd">
+    <title>Wellness</title>
+    <img src="../../img/video_thumb/wellness.png" data-uuid="2c1c4d9827ac446ab9645034ddc14e2b"/>
+    <video src="[videostream:wellness]" width="1280" height="720" data-uuid="fc9c83e2b81b4d599551e26280428e62"/>
+    <!-- <caption> must be present, can be empty -->
+    <caption>Learn about Wellness at SBU!</caption>
+</videofigure>
