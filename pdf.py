@@ -1,5 +1,5 @@
 ##############
-#INSTRUCTIONS#
+#INSTRUCTIONS# 
 ##############
 
 # Begin by checking out the files used for the Inkling project using SVN
@@ -9,6 +9,8 @@
 ## Type into the command line: "svn checkout <URL>" 
 ### <URL> represents the URL for the repository
 #### The URL for the repository should be "https://svn.inkling.com/svn/sbu101_2014_fork/trunk/" without the quotes
+#####The password will be your stonybrook.edu email
+#####When it prompts your username and password again, it will be your inkling account login
 # You'll now need to download the conversion program
 ## http://wkhtmltopdf.org/downloads.html
 ## THIS IS ONLY available on Windows and Linux at the time of writing this.
