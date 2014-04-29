@@ -1,5 +1,5 @@
 ##############
-#INSTRUCTIONS# 
+#INSTRUCTIONS#
 ##############
 
 # Begin by checking out the files used for the Inkling project using SVN
