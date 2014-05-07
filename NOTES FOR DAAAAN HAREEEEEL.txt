@@ -25,3 +25,28 @@ These are the current issues in no particular order:
 	x = the picture's width
 8) Go to the image's corresponding <figure> tag.
 9) Add the following property: style="float:right"
+
+########################
+#HOW TO FIX THE HEADERS#
+########################
+
+1) Go to the header div
+2) Find the div class "chapter-number" and add style="float:right just before the ending angle bracket"
+3) Find the h1 class and add style="border:0px" just before the ending angle bracket
+
+***For now I have no idea how to add the vertical line. I'll update this when I do***
+
+###############################
+#HOW TO LINK VIDEOS IN THE PDF#
+###############################
+
+1) Get Adobe Acrobat. Seriously. That thing is amazing.
+2) Open Adobe Acrobat
+3) Find the video found in the pdf on YouTube.
+4) Click on [Tools]
+	Go to [Add or Edit Link]
+	If a box is already drawn over the video, go to step 6 other wise continue to the next step
+5) Draw a box around the video and make the box invisible
+6) Go to actions and choose "Execute a web link" and paste the link to the YouTube video here
+
+***Make sure the previous link is removed***
