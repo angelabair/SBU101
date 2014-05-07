@@ -52,5 +52,5 @@ for directory in os.listdir(start_dir):
 			if fil.endswith(".html"):
 				#...then convert it to a PDF file and store it in the PDF directory
 				#wkhtmltopdf <target> <source>
-				subprocess.call(["wkhtmltopdf", start_dir+directory+"/"+fil, 
+				subprocess.call(["wkhtmltopdf", "-q", start_dir+directory+"/"+fil, 
 					pdf_dir+directory+"/"+fil[:-5]+".pdf"])
