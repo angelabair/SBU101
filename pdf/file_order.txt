@@ -15,4 +15,3 @@ chapter12
 chapter13
 appendix12
 your_first_yer_at_stony_brook1/table_of_contents.pdf
-your_first_yer_at_stony_brook1/acknowledgements.pdf
